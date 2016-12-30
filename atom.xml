@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-12-30T16:03:33.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ubuntu start nginx</title>
+    <link href="http://yoursite.com/2016/12/30/ubuntu-start-nginx/"/>
+    <id>http://yoursite.com/2016/12/30/ubuntu-start-nginx/</id>
+    <published>2016-12-30T15:55:05.000Z</published>
+    <updated>2016-12-30T16:03:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#nginx</p>
+<ul>
+<li><p>安装<br>sudo apt-get install nginx</p>
+</li>
+<li><p>配置<br>sudo vim /etc/nginx/sites-enable/default</p>
+</li>
+</ul>
+<blockquote>
+<p>最基本的配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">http &#123;</div><div class="line">    server &#123;</div><div class="line">	location / &#123;</div><div class="line">	  root /data/www/blog;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	location /images/ &#123;</div><div class="line">	  root /data;</div><div class="line">	&#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>代理服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">	listen 8080;</div><div class="line">	root /data/up1;</div><div class="line">	</div><div class="line">	location /&#123;</div><div class="line">		proxy_pass http://localhost:8080;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#nginx&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装&lt;br&gt;sudo apt-get install nginx&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;配置&lt;br&gt;sudo vim /etc/nginx/sites-enable/default&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>new String() create object problem</title>
+    <link href="http://yoursite.com/2016/12/29/new-String-create-object-problem/"/>
+    <id>http://yoursite.com/2016/12/29/new-String-create-object-problem/</id>
+    <published>2016-12-29T05:54:28.000Z</published>
+    <updated>2016-12-29T07:19:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="String-s-new-String-“hello”-创建了几个String对象"><a href="#String-s-new-String-“hello”-创建了几个String对象" class="headerlink" title="String s=new String(“hello”);创建了几个String对象"></a>String s=new String(“hello”);创建了几个String对象</h2><p>1.首先来澄清几个概念:<br>Stack: 栈,由JVM分配区域,用于保存现成执行的动作(断点)和数据引用.<br>Heap: 堆,由JVM分配的,用于存储对象等数据的区域.<br>Constant pool: 常量池,在堆中分配出来的一块存储区域,用于存储显式的String,float,integer.这是一个特殊的共享区域,可以在内存中共享的不经常改变的东西.</p>
+<ul>
+<li>String a = “abc”; 1</li>
+<li>String b = “abc”; 2<br>使用这种方式,可在在常量池创建对象,可以提高运行速度.1执行后,2再次执行时,检测到常量池存在就不会创建对象了.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String c = new String(&quot;hello&quot;); 1</div><div class="line">String d = new String(&quot;hello&quot;); 2</div></pre></td></tr></table></figure>
+<p>上面2句代码:Class被ClassLoader加载,”hello”被作为常量读入到常量池,创建了一个共享的”hello”对象,然后调用<br>new String(“hello”)的时候,会在heap生成一个对象. 执行2代码时,只用生成一个对象.<br><strong>综上,String c = new String(“hello”); //创建两个对象,一个引用</strong><br><strong>String a = “xyz”; //创建一个对象,一个引用</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;String-s-new-String-“hello”-创建了几个String对象&quot;&gt;&lt;a href=&quot;#String-s-new-String-“hello”-创建了几个String对象&quot; class=&quot;headerlink&quot; title=&quot;String s=n
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>six problem of java</title>
+    <link href="http://yoursite.com/2016/12/27/six%20problem%20of%20java/"/>
+    <id>http://yoursite.com/2016/12/27/six problem of java/</id>
+    <published>2016-12-27T02:14:17.000Z</published>
+    <updated>2016-12-27T09:46:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#java中6个面点</p>
+<ul>
+<li><p>String<br>String str = “hello world”;<br>我声明了什么? 回答通常是:一个string,内容是”hello world”.这样模糊的回答是概念不清的根源.正确的答案:<br>这个语句声明的是一个指向对象的引用,名为”str”,可以指向<br>类型为string的任何对象,目前指向”hello world”这个string<br>类型的对象.<strong>我们只是声明了一个只能指向string对象的引用<br>变量</strong>.<br>String string = s;<br>这里声明了另外一个只能指向string对象的引用,名为string,<br>并没有<strong>第二个对象产生</strong>,string还是指向原来那个对象,也就是<br>和str指向同一个对象</p>
+</li>
+<li><p>“==”和equals()<br>==操作符专门用来比较变量的值是否相等.</p>
+<blockquote>
+<p>int a = 10;<br>int b = 10;<br>a==b 将是true.<br>但是,<br>String a = new String(“foo”);<br>String b = new String(“foo”);<br>a==b 将是false.</p>
+</blockquote>
+</li>
+</ul>
+<p>跟据<strong>对象变量其实是一个引用</strong>,他们的值是指向对象所在的内存地址,<br>而不是对象本身.a和b都使用了new操作符,<br>内存中产生了两个内容为”foo”的字符串,<br>他们位于不同的内存地址.a和b的值其实<br>是两个不同的内存地址的值,所以使用”==”<br>操作符,结果会是false.不过,他们的内容<br>都是”foo”,应该是”相等”,但是==操作符<br>并不涉及到对象内容的比较</p>
+<p>对象内容的比较,正是equals方法做的事.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">boolean equals(Object o)&#123;</div><div class="line">	return this==o;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Object 对象默认使用了==操作符.如果自创的类没有覆盖equals方法,<br>那你的类使用equals和使用==会得到同样的结果.</p>
+<ul>
+<li>String到底变了没有</li>
+</ul>
+<p>没有.因为String被设计成不可变(immutable)类,所以他的所有对象都是<br>不可变对象.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String s = &quot;hello&quot;;</div><div class="line">s = s + &quot;world&quot;;</div></pre></td></tr></table></figure></p>
+<p>s所指向的对象是否改变了?从第一个问题就容易导出这个结论.s原来指向一个string对象,内容是”hello”,然后对s进行了+操作,那么s所指向<br>的对象是否发生了改变?(<strong>没有</strong>) 不过,s不再指向原来那个对象了,而<br>指向了另一个string对象,内容为”hello world”,原来那个对象还存在内存中.</p>
+<ul>
+<li>final关键字到底修饰了什么?</li>
+</ul>
+<p>final使得被修饰的变量”不变”,但是由于对象型变量的本质是”引用”,使<br>得”不变”也有两种含义:引用本身的不变,和引用指向的对象不变</p>
+<blockquote>
+<p>引用本身的不变：<br>final StringBuffer a=new StringBuffer(“immutable”);<br>final StringBuffer b=new StringBuffer(“not immutable”);<br>a=b;//编译期错误 </p>
+<p>引用指向的对象不变：<br>final StringBuffer a=new StringBuffer(“immutable”);<br>a.append(“ broken!”); //编译通过 </p>
+</blockquote>
+<p><strong>final只对引用的值(它指向的那个对象的内存地址)有效,<br>它迫使引用只能指向初始指向的那个对象,改变他的指向会导致编译期错误.至于它锁指向的对象的变化,finally是不负责的. 和==操作符类似, ==操作符只负责引用的”值”相等,至于这个地址所指向的对象内容是否相等,==操作符不管</strong></p>
+<blockquote>
+<p><strong>理解final问题有很重要的含义。许多程序漏洞都基于此—-final只能保证引用永远指向固定对象，不能保证那个对象的状态不变。在多线程的操作中,一个对象会被多个线程共享或修改，一个线程对对象无意识的修改可能会导致另一个使用此对象的线程崩溃。一个错误的解决方法就是在此对象新建的时候把它声明为final，意图使得它“永远不变”。其实那是徒劳的。</strong></p>
+</blockquote>
+<ul>
+<li>instanceof是什么?</li>
+</ul>
+<p>instanceof是java的一个二元操作符,和==,&gt;,&lt;是同一类.他的作用是检测<br>他左边的对象是否是它右边的类的实例,返回boolean类型的数据</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String s = &quot;I am an object&quot;;</div><div class="line">boolean isobject = s instanceof Object;</div></pre></td></tr></table></figure>
+<p>说完本质,来说说实际用处.</p>
+<blockquote>
+<p>我们写一个处理账单的系统,其中有这样三个类:<br>public class Bill{…}<br>public class PhoneBill extends Bill{…}<br>public class GasBill extends Bill{…}<br>在处理程序里有一个方法,接收一个Bill类型的对象,计算金额.<br>假设两种账单计算方法不同,而传入的Bill对象可能是两种中的<br>一种,所以要用instanceof来判断:<br>public double calculate(Bill bill){<br>    if(bill instanceof PhoneBill){<br>        //计算电话账单<br>    }<br>    if(bill instanceof GasBill){<br>        //计算燃气账单<br>    }<br>}<br>这样可以用一个方法处理两种子类</p>
+<p>然而，这种做法通常被认为是没有好好利用面向对象中的多态性。其实上面的功能要求用方法重载完全可以实现，这是面向对象变成应有的做法，避免回到结构化编程模式。只要提供两个名字和返回值都相同，接受参数类型不同的方法就可以了：<br>public double calculate(PhoneBill bill) {<br>//计算电话账单<br>}<br>public double calculate(GasBill bill) {<br>//计算燃气账单<br>} </p>
+</blockquote>
+<p><strong>所以，使用instanceof在绝大多数情况下并不是推荐的做法，应当好好利用多态。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#java中6个面点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;String&lt;br&gt;String str = “hello world”;&lt;br&gt;我声明了什么? 回答通常是:一个string,内容是”hello world”.这样模糊的回答是概念不清的根源.正确的答案:&lt;br&gt;这个语
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nginx haproxy https</title>
+    <link href="http://yoursite.com/2016/12/26/nginx-haproxy-https/"/>
+    <id>http://yoursite.com/2016/12/26/nginx-haproxy-https/</id>
+    <published>2016-12-26T02:14:17.000Z</published>
+    <updated>2016-12-26T02:23:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Nginx-HA"><a href="#Nginx-HA" class="headerlink" title="Nginx HA"></a>Nginx HA</h2><p>整体方案架构</p>
+<blockquote>
+<pre><code>   (内网192.168.199.5)
+             +-----------VIP----------+   
+             |                        |
+             |                        |
+           Master                   Backup
+        192.168.199.90            192.168.199.57
+        +----------+             +----------+
+        | HAProxy  |             | HAProxy  |
+        |nginx(SSL)|             |nginx(SSL)|
+        |keepalived|             |keepalived|        
+        +----------+             +----------+
+             |  
+             v  
+      192.168.199.88/89
+       +----------+
+       | multiple |
+       |  NGINXs  |
+       +----------+
+             |  
+             v 
+    +--------+---------+ 
+    |        |         |
+    |        |         |
+    v        v         v
++------+  +------+  +------+
+| WEB1 |  | WEB2 |  | WEB3 |
++------+  +------+  +------+
+</code></pre></blockquote>
+<p>各软件作用:</p>
+<ul>
+<li>Keepalived: 判断HaProxy存活,保证HA</li>
+<li>Haproxy: 做Http Load Balance</li>
+<li>Nginx(ssl): 与Haproxy放置同一台服务器,负责ssl offload</li>
+<li>Nginx(LB): load balancer for app&amp;web server</li>
+</ul>
+<blockquote>
+<p> +——–+      HTTP                      :80 +———-+<br>      | client |  ——————————–&gt; |          |<br>      |        |                                    | haproxy, |<br>      +——–+             +———+            |  1 or 2  |<br>     /        /     HTTPS    |  Nginx  |  HTTP  :80 | listening|<br>    <________ ---------=""> |  (SSL)  | ———&gt; |  ports   |<br>                             |         |            |          |<br>                             +———+            +———-+</________></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Nginx-HA&quot;&gt;&lt;a href=&quot;#Nginx-HA&quot; class=&quot;headerlink&quot; title=&quot;Nginx HA&quot;&gt;&lt;/a&gt;Nginx HA&lt;/h2&gt;&lt;p&gt;整体方案架构&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;   (内网192.1
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vue.js 2.0</title>
+    <link href="http://yoursite.com/2016/12/23/vue-js-2-0/"/>
+    <id>http://yoursite.com/2016/12/23/vue-js-2-0/</id>
+    <published>2016-12-23T08:01:12.000Z</published>
+    <updated>2016-12-23T17:16:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vuejs2-0初学-https-pylixm-cc-posts-2016-11-16-vue-first-html"><a href="#vuejs2-0初学-https-pylixm-cc-posts-2016-11-16-vue-first-html" class="headerlink" title="vuejs2.0初学 ()[https://pylixm.cc/posts/2016-11-16-vue-first.html]"></a>vuejs2.0初学 ()[<a href="https://pylixm.cc/posts/2016-11-16-vue-first.html" target="_blank" rel="external">https://pylixm.cc/posts/2016-11-16-vue-first.html</a>]</h1><p>一.概念：<br>vue.js提供MVVM数据绑定<br>MVVM相比于MVC</p>
+<ul>
+<li>Model:管理数据<ul>
+<li>View: 数据展示</li>
+<li>View-Model: 简化的Controller,唯一作用就是为View提供处理好的数据，不含其它逻辑.</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;vuejs2-0初学-https-pylixm-cc-posts-2016-11-16-vue-first-html&quot;&gt;&lt;a href=&quot;#vuejs2-0初学-https-pylixm-cc-posts-2016-11-16-vue-first-html&quot; cl
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>equals and ==</title>
+    <link href="http://yoursite.com/2016/12/22/equals%20and%20==/"/>
+    <id>http://yoursite.com/2016/12/22/equals and ==/</id>
+    <published>2016-12-22T04:27:18.000Z</published>
+    <updated>2016-12-22T15:18:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="和equals"><a href="#和equals" class="headerlink" title="==和equals"></a>==和equals</h2><p>下定义：equals()是方法，==是操作符。在java中不支持操作符重载，方法却是支持的。</p>
+<p>下面来画重点：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * 1.字符串比较</div><div class="line"> */</div><div class="line">String str1 = &quot;abc&quot;;</div><div class="line">String str2 = &quot;abc&quot;;</div><div class="line">System.out.println(str1 == str2); //true</div><div class="line">System.out.println(str1.equals(str2)); //true</div><div class="line"></div><div class="line">str1 = new String(&quot;abc&quot;);</div><div class="line">str2 = new String(&quot;abc&quot;);</div><div class="line">System.out.println(str1 == str2); //false</div><div class="line">System.out.println(str1.equals(str2)); //true</div><div class="line"></div><div class="line">/**</div><div class="line"> * 2.对象比较</div><div class="line"> */</div><div class="line">Object obj1 = new Object();</div><div class="line">Object obj2 = new Object();</div><div class="line">System.out.println(obj1==obj2); //false</div><div class="line">System.out.println(obj1.equals(obj2)); //false</div><div class="line">obj1=obj2;</div><div class="line">System.out.println(obj1==obj2); //true</div><div class="line">System.out.println(obj1.equals(obj2)); //true</div></pre></td></tr></table></figure></p>
+<p>下面对字符串比较进行说明</p>
+<blockquote>
+<p>由于jdk对string对象的equals方法进行了改写，首先判断对象是不是同一个，如果是返回true,如果不是继续判断两个对象的字面量是否相同，如果相同返回true.</p>
+<p>在代码片段１中，大家都知道直接给string变量赋值的时候，str2和str1都是同一个对象。所以输出两个true.</p>
+<p>当用new String()方式申明变量，jdk 会分配两个地址，所以==操作符输出了false,而equals先比较对象　在比较字面量，最后输出了true.</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;和equals&quot;&gt;&lt;a href=&quot;#和equals&quot; class=&quot;headerlink&quot; title=&quot;==和equals&quot;&gt;&lt;/a&gt;==和equals&lt;/h2&gt;&lt;p&gt;下定义：equals()是方法，==是操作符。在java中不支持操作符重载，方法却是支持的。
+    
+    </summary>
+    
+    
+      <category term="每日一计" scheme="http://yoursite.com/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>how to create link on win and mac</title>
+    <link href="http://yoursite.com/2016/12/16/how-to-create-link-on-win/"/>
+    <id>http://yoursite.com/2016/12/16/how-to-create-link-on-win/</id>
+    <published>2016-12-16T04:27:18.000Z</published>
+    <updated>2016-12-20T09:58:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近闲下来了，就来倒腾博客，准备用我的黑果来写blog。<br>那么问题来了，在mac上写了一遍，win上怎么<strong>同步</strong>的问题。<br>不会把整个blog工程都同步吧，我确实这样干过.不过node_modules模块<br>文件太零碎了，这么干是不可取的。</p>
+<p>最酷炫的一个办法是：同步source/_posts/。<br>下面就祭出软链接: </p>
+<pre><code>ln -s /Users/jiemin/Dropbox/_posts/ /Users/jiemin/blog/source/
+-------------------------------
+[ln -s source target]
+</code></pre><p>这条命令必须在最后加上/, 不然hexo 会报错。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近闲下来了，就来倒腾博客，准备用我的黑果来写blog。&lt;br&gt;那么问题来了，在mac上写了一遍，win上怎么&lt;strong&gt;同步&lt;/strong&gt;的问题。&lt;br&gt;不会把整个blog工程都同步吧，我确实这样干过.不过node_modules模块&lt;br&gt;文件太零碎了，这么干是
+    
+    </summary>
+    
+    
+      <category term="每日一计" scheme="http://yoursite.com/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/12/10/hello-world/"/>
+    <id>http://yoursite.com/2016/12/10/hello-world/</id>
+    <published>2016-12-10T11:52:49.000Z</published>
+    <updated>2016-12-10T11:52:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
