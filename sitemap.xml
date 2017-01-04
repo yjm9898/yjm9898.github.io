@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/12/23/vue-js-2-0/</loc>
+    
+    <lastmod>2017-01-03T09:28:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/12/30/ubuntu-start-nginx/</loc>
     
     <lastmod>2016-12-30T16:03:33.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/2016/12/26/nginx-haproxy-https/</loc>
     
     <lastmod>2016-12-26T02:23:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/12/23/vue-js-2-0/</loc>
-    
-    <lastmod>2016-12-23T17:16:54.000Z</lastmod>
     
   </url>
   
