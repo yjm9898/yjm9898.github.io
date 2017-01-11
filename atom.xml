@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiemin.in/"/>
-  <updated>2017-01-11T06:41:32.000Z</updated>
+  <updated>2017-01-11T09:57:28.000Z</updated>
   <id>https://jiemin.in/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>add ssl to your hexo pages</title>
+    <link href="https://jiemin.in/2017/01/11/add-ssl-to-your-hexo-pages/"/>
+    <id>https://jiemin.in/2017/01/11/add-ssl-to-your-hexo-pages/</id>
+    <published>2017-01-11T07:14:39.000Z</published>
+    <updated>2017-01-11T09:57:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="给pages加上小锁"><a href="#给pages加上小锁" class="headerlink" title="给pages加上小锁"></a>给pages加上小锁</h1><ul>
+<li>购买自己的域名,在<a href="https://sg.godaddy.com/zh" target="_blank" rel="external">godaddy</a>上购买的.</li>
+<li>注册<a href="https://www.cloudflare.com" target="_blank" rel="external">cloudflare</a>来强制所有的请求都上https.</li>
+</ul>
+<h2 id="1-注册域名"><a href="#1-注册域名" class="headerlink" title="1.注册域名"></a>1.注册域名</h2><p>付费购买一个自己想要的域名.<br><img src="/images/pasted-0.png" alt="pasted image"></p>
+<h2 id="2-给域名添加cloudflare-DNS"><a href="#2-给域名添加cloudflare-DNS" class="headerlink" title="2.给域名添加cloudflare DNS"></a>2.给域名添加cloudflare DNS</h2><p>接下来打开<a href="https://www.cloudflare.com" target="_blank" rel="external">cloudflare</a>官网,注册完账号，输入你的域名(jiemin.in),按照默认设置next.<br>此时会让你更改goddy的域名服务器为下面的地址<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PEYTON.NS.CLOUDFLARE.COM</div><div class="line">YOLANDA.NS.CLOUDFLARE.COM</div></pre></td></tr></table></figure></p>
+<p><img src="/images/pasted-1.png" alt="pasted image"><br>更改完之后cloudflare会在全网处理，等待30min左右。直到status:Active.<br><img src="/images/pasted-2.png" alt="pasted image"></p>
+<p>此时完成了一半，下面划重点。</p>
+<p><strong>1.由于cloudflare接管了域名的dns,那就在dns栏设置你的A纪录</strong>,按照github官方给出的教程设置A纪录的value为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">192.30.252.153</div><div class="line">192.30.252.154</div></pre></td></tr></table></figure></p>
+<p><strong>2.设置CNAME(别名)</strong><br>在pages的repository里新建一个CNAME的文件[在你的blog/source/CNAME]，里面append上你的域名(jiemin.in).等一会儿在你的仓库能够看到如下的提示<br><img src="/images/pasted-3.png" alt="pasted image"><br>之后在CloudFlare设置CNAME,如图<br><img src="/images/pasted-4.png" alt="pasted image"></p>
+<p><strong>3.写完之后想起少了一步，需要在特殊设置一下</strong><br>在page rules下：<br>点击create page rule<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://jiemin.in/*   Always Use HTTPS</div></pre></td></tr></table></figure></p>
+<p><img src="/images/pasted-5.png" alt="pasted image"><br>这就是我上小锁的完整记录了。零零散散的，其实我自己都看不懂。(sigh~~~)</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><blockquote>
+<p><a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider" target="_blank" rel="external">https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider</a><br><a href="http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-03.html" target="_blank" rel="external">http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-03.html</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;给pages加上小锁&quot;&gt;&lt;a href=&quot;#给pages加上小锁&quot; class=&quot;headerlink&quot; title=&quot;给pages加上小锁&quot;&gt;&lt;/a&gt;给pages加上小锁&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;购买自己的域名,在&lt;a href=&quot;https://sg.god
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>life is beautiful</title>
