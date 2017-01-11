@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiemin.in/"/>
-  <updated>2017-01-11T14:01:53.000Z</updated>
+  <updated>2017-01-11T14:49:30.000Z</updated>
   <id>http://jiemin.in/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jiemin.in/2017/01/11/hexo-plugin-for-post-link-to-baidu/"/>
     <id>http://jiemin.in/2017/01/11/hexo-plugin-for-post-link-to-baidu/</id>
     <published>2017-01-11T13:52:18.000Z</published>
-    <updated>2017-01-11T14:01:53.000Z</updated>
+    <updated>2017-01-11T14:49:30.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hexo-给百度主动提交链接"><a href="#Hexo-给百度主动提交链接" class="headerlink" title="Hexo 给百度主动提交链接"></a>Hexo 给百度主动提交链接</h1><blockquote>
 <p>由于博客托管在github上，导致博客无法被百度收录。 借助万能的goole,找到了这款插件<code>hexo-baidu-url-submit</code></p>
@@ -31,7 +31,7 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-baidu-url-submit --save</div></pre></td></tr></table></figure>
 <ul>
-<li>2.修改_config.yml<br>在末尾添加<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">baidu_url_submit:</span></div><div class="line"><span class="attr">  count:</span> <span class="number">3</span> <span class="comment">## 比如3，代表提交最新的三个链接</span></div><div class="line"><span class="attr">  host:</span> jiemin.in <span class="comment">## 在百度站长平台中注册的域名</span></div><div class="line"><span class="attr">  token:</span> your_token <span class="comment">## 请注意这是您的秘钥， 请不要发布在公众仓库里!</span></div><div class="line"><span class="attr">  path:</span> baidu_urls.txt <span class="comment">## 文本文档的地址， 新链接会保存在此文本文档里</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> baidu_url_submitter</div></pre></td></tr></table></figure>
+<li>2.修改_config.yml<br>在末尾添加<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">- type:</span> git</div><div class="line"><span class="attr">  repo:</span> https://github.com/XXX/XXX.github.io.git</div><div class="line"><span class="attr">  branch:</span> master</div><div class="line"><span class="attr">- type:</span> baidu_url_submitter</div><div class="line"></div><div class="line"><span class="attr">baidu_url_submit:</span></div><div class="line"><span class="attr">  count:</span> <span class="number">3</span> <span class="comment">## 比如3，代表提交最新的三个链接</span></div><div class="line"><span class="attr">  host:</span> jiemin.in <span class="comment">## 在百度站长平台中注册的域名</span></div><div class="line"><span class="attr">  token:</span> your_token <span class="comment">## 请注意这是您的秘钥， 请不要发布在公众仓库里!</span></div><div class="line"><span class="attr">  path:</span> baidu_urls.txt <span class="comment">## 文本文档的地址， 新链接会保存在此文本文档里</span></div></pre></td></tr></table></figure>
 </li>
 </ul>
 ]]></content>
