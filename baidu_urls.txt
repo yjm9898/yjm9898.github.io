@@ -1,3 +1,3 @@
-http://jiemin.in/2017/01/11/hexo-plugin-for-post-link-to-baidu/
-http://jiemin.in/2017/01/11/add-ssl-to-your-hexo-pages/
-http://jiemin.in/2017/01/08/life-is-beautiful/
+https://jiemin.in/2017/01/11/hexo-plugin-for-post-link-to-baidu/
+https://jiemin.in/2017/01/11/add-ssl-to-your-hexo-pages/
+https://jiemin.in/2017/01/08/life-is-beautiful/
