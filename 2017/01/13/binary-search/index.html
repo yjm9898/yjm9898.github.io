@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> binary search · Hexo Blog</title><meta name="description" content="binary search - jiemin"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://jiemin.in/atom.xml" title="Hexo Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/jiemin4j" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/yjm9898" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">binary search</h1><div class="post-info">2017年1月13日</div><div class="post-content"><p>1.说说你的优势<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">- .在开发过程中同事遇到了bug 问题，或多或少都会给到我们一起解决。乐意分享。</div><div class="line">- .为了产品上线，晚上加班到12点连续一个月，就为了出一个稳定的版本。在开发中</div><div class="line">主动用chrome远程调试h5来推动项目开发进度。</div><div class="line">- .js和后端都有用过.</div><div class="line">- .在团队中担任开发者角色，结对编程。</div></pre></td></tr></table></figure></p>
+<p>2.栈和队列的区别<br><em>栈后进先出 栈只能在一端（栈顶）进行插入和删除操作[桶]</em><br><em>队列先进先出 队列只能在一端（队尾）进行插入，在另一端（队头）进行删除[排队]</em></p>
+<p>3.mysql数据库日志</p>
+<ul>
+<li><p>错误日志</p>
+<blockquote>
+<p>记录了mysqld启动、运行、停止时，所遇到的问题；</p>
+</blockquote>
+</li>
+<li><p>普通查询日志</p>
+<blockquote>
+<p>日志记录了服务器建立的客户端连接，以及来自客户端的查询语句；</p>
+</blockquote>
+</li>
+<li><p>二进制日志</p>
+<blockquote>
+<p>记录了更新数据的语句，也包括复制数据的语句；</p>
+</blockquote>
+</li>
+<li><p>中继日志</p>
+<blockquote>
+<p>只有主从复制的slave服务器才会有，记录的是来自主服务器的数据变化；</p>
+</blockquote>
+</li>
+<li><p>慢查询日志</p>
+<blockquote>
+<p>记录的是查询时间超过变量long_query_time秒的查询；</p>
+</blockquote>
+</li>
+<li><p>DDL日志</p>
+<blockquote>
+<p>也叫元数据日志，记录的是通过DDL进行的元数据操作；</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li>[TODO] <a href="http://blog.csdn.net/hguisu/article/details/7325124/" target="_blank" rel="external">高性能mysql</a></li>
+</ul>
+<p>4.数据库查询<br>Class_info<br>class sex name<br>1    0    zhangsan<br>1    1    lisi<br>2    0    wangwu<br>2    1    alice</p>
+<p><em>question:</em> 一条sql分析出各个班级男生和女生的人数?<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">select</span> <span class="keyword">count</span>(<span class="number">1</span>), <span class="keyword">class</span>, sex <span class="keyword">from</span> Class_info <span class="keyword">group</span> <span class="keyword">by</span> (sex,<span class="keyword">class</span>);</div></pre></td></tr></table></figure></p>
+<p>5.二分查找<a href="http://coolshell.cn/articles/4506.html" target="_blank" rel="external"></a><br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">binarySearch</span><span class="params">(<span class="keyword">int</span> array[], <span class="keyword">int</span> num)</span> </span>&#123; <span class="comment">//非递归</span></div><div class="line">	<span class="keyword">int</span> low = <span class="number">0</span>;</div><div class="line">	<span class="keyword">int</span> high = array.length - <span class="number">1</span>;</div><div class="line"></div><div class="line">	<span class="keyword">while</span> (low &lt;= high) &#123;</div><div class="line">		<span class="keyword">int</span> middle = low + ((high - low) &gt;&gt; <span class="number">1</span>);</div><div class="line">		<span class="keyword">if</span> (num == array[middle]) &#123;</div><div class="line">			<span class="keyword">return</span> middle;</div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> (num &lt; array[middle]) &#123;</div><div class="line">			high = middle - <span class="number">1</span>;</div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			low = middle + <span class="number">1</span>;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">return</span> -<span class="number">1</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">BinSearch2</span><span class="params">(<span class="keyword">int</span> Array[], <span class="keyword">int</span> low, <span class="keyword">int</span> high, <span class="keyword">int</span> key)</span> </span>&#123; <span class="comment">//递归</span></div><div class="line">	<span class="keyword">if</span> (low &lt;= high) &#123;</div><div class="line">		<span class="keyword">int</span> mid = (low + high) / <span class="number">2</span>;</div><div class="line">		<span class="keyword">if</span> (key == Array[mid])</div><div class="line">			<span class="keyword">return</span> mid;</div><div class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (key &lt; Array[mid])</div><div class="line">			<span class="comment">// 移动low和high</span></div><div class="line">			<span class="keyword">return</span> BinSearch2(Array, low, mid - <span class="number">1</span>, key);</div><div class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (key &gt; Array[mid])</div><div class="line">			<span class="keyword">return</span> BinSearch2(Array, mid + <span class="number">1</span>, high, key);</div><div class="line">	&#125; <span class="keyword">else</span>&#123;</div><div class="line">		</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> -<span class="number">1</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>6.分布式</p>
+<blockquote>
+<p><a href="https://my.oschina.net/huangyong/blog/361751" target="_blank" rel="external">https://my.oschina.net/huangyong/blog/361751</a><br><a href="http://www.infoq.com/cn/articles/features-and-design-concept-of-distributed-system" target="_blank" rel="external">http://www.infoq.com/cn/articles/features-and-design-concept-of-distributed-system</a></p>
+</blockquote>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/01/11/hexo-plugin-for-post-link-to-baidu/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
+var disqus_identifier = '2017/01/13/binary-search/';
+var disqus_title = 'binary search';
+var disqus_url = 'https://jiemin.in/2017/01/13/binary-search/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//jiemin.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 <a href="https://jiemin.in">jiemin</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
