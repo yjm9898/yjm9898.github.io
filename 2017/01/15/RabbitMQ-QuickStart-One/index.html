@@ -6,10 +6,10 @@
 <li>消息持久化：从内存持久化消息到硬盘，再从硬盘加载到内存</li>
 </ul>
 </blockquote>
-<h2 id="AMQP-是啥"><a href="#AMQP-是啥" class="headerlink" title="AMQP 是啥"></a>AMQP 是啥</h2><p>AMQP（高级消息队列协议）是一个网络协议。它支持符合要求的客户端应用（application）和消息中间件代理（messaging middleware broker）之间进行通信。</p>
+<h2 id="AMQP-是啥wiki"><a href="#AMQP-是啥wiki" class="headerlink" title="AMQP 是啥wiki"></a>AMQP 是啥<a href="https://www.wikiwand.com/en/Advanced_Message_Queuing_Protocol" target="_blank" rel="external">wiki</a></h2><p>AMQP（高级消息队列协议）是一个网络协议。它支持符合要求的客户端应用（application）和消息中间件代理（messaging middleware broker）之间进行通信。</p>
 <h3 id="消息代理和他们所扮演的角色"><a href="#消息代理和他们所扮演的角色" class="headerlink" title="消息代理和他们所扮演的角色"></a>消息代理和他们所扮演的角色</h3><p><code>message brokers</code> 从<code>publishers</code>那儿接收消息，并根据制定的<code>路由规则</code>把接收到的消息发送给<code>consumers</code>. 注意AMQP是一个网络协议，所以这三者可以在不同的设备上。</p>
-<h3 id="AMQP运作流程"><a href="#AMQP运作流程" class="headerlink" title="AMQP运作流程"></a>AMQP运作流程</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1.message首先被publisher发送给exchange[mail box or container]。</div><div class="line">2.exchange将收到的消息根据routing rules发送给绑定的queue.</div><div class="line">3.broker最后将会把消息投递给订阅了此队列的consumer.</div></pre></td></tr></table></figure>
-<p>下面是来自hello world example routing的示意图<br><img src="../images/hello-world-example-routing.png" alt="hello world example routing"></p>
+<h3 id="AMQP运作流程"><a href="#AMQP运作流程" class="headerlink" title="AMQP运作流程"></a>AMQP运作流程</h3><figure class="highlight plain"><figcaption><span>text</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1.message首先被publisher发送给exchange[mail box or container]。</div><div class="line">2.exchange将收到的消息根据routing rules发送给绑定的queue.</div><div class="line">3.broker最后将会把消息投递给订阅了此队列的consumer.</div></pre></td></tr></table></figure>
+<p>下面是来自hello world example routing的示意图<br><img src="/images/hello-world-example-routing.png" alt="hello world example routing"></p>
 </div></article></div></main><footer><div class="paginator"><a href="/2017/01/14/you-should-To-Zero-Heart-to-code/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
 var disqus_identifier = '2017/01/15/RabbitMQ-QuickStart-One/';
 var disqus_title = 'RabbitMQ QuickStart One';
