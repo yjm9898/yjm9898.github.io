@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiemin.in/"/>
-  <updated>2017-01-15T15:41:30.000Z</updated>
+  <updated>2017-01-15T17:24:47.000Z</updated>
   <id>https://jiemin.in/</id>
   
   <author>
@@ -20,20 +20,86 @@
     <link href="https://jiemin.in/2017/01/15/RabbitMQ-QuickStart-One/"/>
     <id>https://jiemin.in/2017/01/15/RabbitMQ-QuickStart-One/</id>
     <published>2017-01-15T14:57:50.000Z</published>
-    <updated>2017-01-15T15:41:30.000Z</updated>
+    <updated>2017-01-15T17:24:47.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>(RabbitMQ)[<a href="https://www.wikiwand.com/zh-cn/RabbitMQ" target="_blank" rel="external">https://www.wikiwand.com/zh-cn/RabbitMQ</a>]</strong>实现了高级消息队列协议<em>Advanced Message Queue protocol (amqp)</em>的开源消息代理(Message broker).</p>
 <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><blockquote>
 <p>RabbitMQ是一套开源的消息队列服务软件，是由 LShift 提供的一个 Advanced Message Queuing Protocol (AMQP) 的开源实现.</p>
+</blockquote>
 <h2 id="主要特性"><a href="#主要特性" class="headerlink" title="主要特性"></a>主要特性</h2><ul>
 <li>可伸缩性：群集服务</li>
 <li>消息持久化：从内存持久化消息到硬盘，再从硬盘加载到内存</li>
 </ul>
-</blockquote>
 <h2 id="AMQP-是啥wiki"><a href="#AMQP-是啥wiki" class="headerlink" title="AMQP 是啥wiki"></a>AMQP 是啥<a href="https://www.wikiwand.com/en/Advanced_Message_Queuing_Protocol" target="_blank" rel="external">wiki</a></h2><p>AMQP（高级消息队列协议）是一个网络协议。它支持符合要求的客户端应用（application）和消息中间件代理（messaging middleware broker）之间进行通信。</p>
 <h3 id="消息代理和他们所扮演的角色"><a href="#消息代理和他们所扮演的角色" class="headerlink" title="消息代理和他们所扮演的角色"></a>消息代理和他们所扮演的角色</h3><p><code>message brokers</code> 从<code>publishers</code>那儿接收消息，并根据制定的<code>路由规则</code>把接收到的消息发送给<code>consumers</code>. 注意AMQP是一个网络协议，所以这三者可以在不同的设备上。</p>
 <h3 id="AMQP运作流程"><a href="#AMQP运作流程" class="headerlink" title="AMQP运作流程"></a>AMQP运作流程</h3><figure class="highlight plain"><figcaption><span>text</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1.message首先被publisher发送给exchange[mail box or container]。</div><div class="line">2.exchange将收到的消息根据routing rules发送给绑定的queue.</div><div class="line">3.broker最后将会把消息投递给订阅了此队列的consumer.</div></pre></td></tr></table></figure>
 <p>下面是来自hello world example routing的示意图<br><img src="/images/hello-world-example-routing.png" alt="hello world example routing"></p>
+<blockquote>
+<p>publisher发布消息时可以给消息指定各种消息属性。有些属性有可能会被broker使用，然而其他的属性则是完全不透明的，他们只能被接收消息的应用使用。<br>从安全的角度，网络是不可靠的，接收消息的application可能在处理消息的时候失败。所以AMQP模块包含了一个message Acknowledgements的概念：<br>当消息从queue中投递给consumer后，1).consumer需要通知broker[这个动作可以自动 或者application开发者执行]；2).当broker收到<code>消息确认</code>,broker不会完全将消息从队列中删除，直到它收到来自消费者的ack.</p>
+</blockquote>
+<h3 id="AMQP是一个可编程的协议"><a href="#AMQP是一个可编程的协议" class="headerlink" title="AMQP是一个可编程的协议"></a>AMQP是一个可编程的协议</h3><blockquote>
+<p>编程前的定义: (AMQP entities){queue, exchange, bind}<br>AMQP的entities和routing rules 是由应用本身定义的，而不是由消息代理定义。<br>应用程序声明AMQP实体，定义需要的路由方案，或者删除不再需要的AMQP实体.</p>
+</blockquote>
+<h4 id="exchange-and-exchange-type"><a href="#exchange-and-exchange-type" class="headerlink" title="exchange and exchange type"></a>exchange and exchange type</h4><blockquote>
+<p>exchange 是用来发送消息的AMQP的实体。交换机在拿到消息之后将他路由给一个或零个队列。它使用哪种路由算法是由交换机类型和被称作bindings rules决定。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Default pre-declared names</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Direct exchange(直连交换机)</td>
+<td style="text-align:left">(Empty string) and amq.direct</td>
+</tr>
+<tr>
+<td style="text-align:left">Fanout exchange(扇形交换机)</td>
+<td style="text-align:left">amq.fanout</td>
+</tr>
+<tr>
+<td style="text-align:left">Topic exchange(主题交换机)</td>
+<td style="text-align:left">amq.topic</td>
+</tr>
+<tr>
+<td style="text-align:left">Headers exchange(头交换机)</td>
+<td style="text-align:left">amq.match(and amq.headers in RabbitMQ)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>除交换机类型外，在声明交换机时还可以附带许多其他的属性。</p>
+<ul>
+<li>Name</li>
+<li>Durability (broker重启后，交换机是否还存在)</li>
+<li>Auto-delete (当所有与之绑定的消息队列都完成了对此交换机的使用后，删掉它)</li>
+<li>Arguments (依赖代理本身)<br>交换机可以有两个状态：durable and transient. durable的交换机会在broker重启之后依旧存在，而transient的交换机则不会(需要在代理再次上线后被声明)</li>
+</ul>
+</blockquote>
+<h4 id="默认交换机"><a href="#默认交换机" class="headerlink" title="默认交换机"></a>默认交换机</h4><p>default exchange 实际上是一个由broker预先声明好的没有名字(name is null string)的直连交换机(direct exchange).它有一个特殊的属性使得它对于简单应用特别有用处：那就是每个新建队列(queue)都会自动绑定到默认交换机上，绑定的路由键<em>routing key</em>名称与队列名称相同</p>
+<blockquote>
+<p>举个🌰: 当声明了一个名字”search-indexing-online”的队列，broker会自动将其bind到默认交换机上，binding的routing key名称也是”search-indexing-online”.因此，当携带着名为”search-indexing-online”的路由键的消息被发送到默认交换机的时候，此消息会被默认交换机routing到名为”search-indexing-online”的queue中。</p>
+</blockquote>
+<h4 id="直连交换机"><a href="#直连交换机" class="headerlink" title="直连交换机"></a>直连交换机</h4><p>direct exchange 是根据消息携带的路由键(routing key)将消息投递给对应的消息队列的。直连交换机用来处理message的单波路由<code>unicast routing</code>.下面是他的工作流程:</p>
+<ul>
+<li>将一个队列绑定到某个交换机上，同时赋予该绑定(bindings)一个路由键(routing key).</li>
+<li>当一个携带着路由键为R的消息(message)被发送给直连交换机时，交换机会把它路由给绑定值同样为R的队列(queue).</li>
+</ul>
+<p>直连交换机经常用来循环分发任务给多个工作者(workers).当这样做的时候，我们需要知道：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">In AMQP 0-9-1中，消息的负载均衡(load balance)发生在consumer的，而不是queue之间。</div></pre></td></tr></table></figure></p>
+<p><img src="/images/exchange-direct.png" alt="Direct exchange routing"></p>
+<h4 id="扇形交换机"><a href="#扇形交换机" class="headerlink" title="扇形交换机"></a>扇形交换机</h4><p>funout exchange 将消息路由给绑定到它身上的所有队列，而不去关心绑定的路由键(routing key). 如果N个队列绑定到某个扇形交换机上，当有消息发送给这个扇形交换机时，交换机会将消息的拷贝分别发送给这所有的N个队列。扇形用来交换机处理消息的广播路由(broadcast routing).<br>因为投递消息的拷贝到所有绑定到它的队列，所以他的应用案例都极其相似:</p>
+<ul>
+<li>大规模多用户在线游戏可以使用它来处理排行榜更新等全局事件</li>
+<li>体育新闻网站可以用它来近乎实时地讲比分更新分发给移动客户端</li>
+<li>分发系统使用它来广播各种状态和配置更新</li>
+<li>在群聊的时候，它被用来分发消息给参与群聊的用户</li>
+</ul>
+<p><img src="/images/exchange-fanout.png" alt="Fanout exchange routing"></p>
+<h4 id="主题交换机"><a href="#主题交换机" class="headerlink" title="主题交换机"></a>主题交换机</h4><p>topic exchange</p>
+<hr>
+<p>未完…<a href="http://rabbitmq.mr-ping.com/AMQP/AMQP_0-9-1_Model_Explained.html" target="_blank" rel="external"></a></p>
 ]]></content>
     
     <summary type="html">
