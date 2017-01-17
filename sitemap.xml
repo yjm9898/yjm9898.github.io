@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jiemin.in/2017/01/15/RabbitMQ-QuickStart-One/</loc>
+    <loc>https://jiemin.in/2017/01/13/binary-search/</loc>
     
-    <lastmod>2017-01-16T04:58:26.000Z</lastmod>
+    <lastmod>2017-01-17T14:59:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiemin.in/2017/01/13/binary-search/</loc>
+    <loc>https://jiemin.in/2017/01/16/Java-Thread/</loc>
     
-    <lastmod>2017-01-15T14:16:11.000Z</lastmod>
+    <lastmod>2017-01-17T14:39:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiemin.in/2017/01/15/RabbitMQ-QuickStart-One/</loc>
+    
+    <lastmod>2017-01-16T09:18:07.000Z</lastmod>
     
   </url>
   
