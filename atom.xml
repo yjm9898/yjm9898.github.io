@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiemin.in/"/>
-  <updated>2017-01-18T06:07:23.000Z</updated>
+  <updated>2017-01-18T06:09:17.000Z</updated>
   <id>https://jiemin.in/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jiemin.in/2017/01/16/Java-Thread/"/>
     <id>https://jiemin.in/2017/01/16/Java-Thread/</id>
     <published>2017-01-16T08:27:02.000Z</published>
-    <updated>2017-01-18T06:07:23.000Z</updated>
+    <updated>2017-01-18T06:09:17.000Z</updated>
     
     <content type="html"><![CDATA[<p>排序分为内部排序和外部排序，下面主要讨论内部排序。</p>
 <ul>
@@ -63,7 +63,10 @@
 <li>实现：<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">quickSort</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="keyword">int</span> array[] = &#123;<span class="number">57</span>,<span class="number">68</span>,<span class="number">59</span>,<span class="number">52</span>,<span class="number">72</span>,<span class="number">28</span>,<span class="number">96</span>,<span class="number">33</span>,<span class="number">24</span>,<span class="number">19</span>&#125;;</div><div class="line">    quick(array)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">quick</span><span class="params">(<span class="keyword">int</span>[] array)</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(array.length&gt;<span class="number">0</span>) &#123;</div><div class="line">        _quickSort(array,<span class="number">0</span>,array.length-<span class="number">1</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">_quickSort</span><span class="params">(<span class="keyword">int</span>[] array,<span class="keyword">int</span> low, <span class="keyword">int</span> high)</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(low&lt;high)&#123;</div><div class="line">        <span class="keyword">int</span> middle = getMiddle(array,low,high);</div><div class="line">        _quickSort(array,low,middle-<span class="number">1</span>);</div><div class="line">        _quickSort(array,middle+<span class="number">1</span>,high);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getMiddle</span><span class="params">(<span class="keyword">int</span>[] array,<span class="keyword">int</span> low, <span class="keyword">int</span> high)</span></span>&#123;</div><div class="line">    <span class="keyword">int</span> temp = array[low]; <span class="comment">//第一个数作为中轴</span></div><div class="line">    <span class="keyword">while</span>(low&lt;high)&#123;</div><div class="line">        <span class="keyword">while</span>(low&lt;high &amp;&amp; array[high]&gt;=temp)&#123;</div><div class="line">            high--;</div><div class="line">        &#125;</div><div class="line">        array[low] = array[high];  <span class="comment">//比中轴小的值移动到低端</span></div><div class="line"></div><div class="line">        <span class="keyword">while</span>(low&lt;high &amp;&amp; array[low]&lt;=temp)&#123;</div><div class="line">            low++;</div><div class="line">        &#125;</div><div class="line">        array[high] = array[low];  <span class="comment">//比中轴大的值移动到高端</span></div><div class="line">    &#125;</div><div class="line">    list[low] = temp;</div><div class="line">    <span class="keyword">return</span> low;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><h2 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h2>]]></content>
+<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><ul>
+<li>基本排序： 归并排序是将两个(或两个以上)有序表合并成一个新的有序表</li>
+</ul>
+<h2 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h2>]]></content>
     
     <summary type="html">
     
