@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> java main thread wait thread finish · Hexo Blog</title><meta name="description" content="java main thread wait thread finish - jiemin"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://jiemin.in/atom.xml" title="Hexo Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/jiemin4j" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/yjm9898" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">java main thread wait thread finish</h1><div class="post-info">2017年1月18日</div><div class="post-content"><p>多个子线程执行完成，主线程才继续执行:</p>
+<ul>
+<li>闭锁CountDownLatch<ul>
+<li>闭锁时典型的等待时间发生的同步工具，将闭锁的初始值设置为与子线程数目相同，每个子线程执行完成都调用CountDownLatch的CountDown()方法，主线程调用await()方法等待闭锁的计数值变为0之后恢复执行.</li>
+</ul>
+</li>
+<li>线程间同步方法[假设有N个子线程，每个子线程执行完成都将一个全局的原子变量加1，某个线程将原子变量加到N之后，则利用下面三个方法唤醒]<ul>
+<li>Semaphore: 信号量机制，主线程申请占用信号量失败，由子线程释放信号量唤醒.</li>
+<li>BlockingQueue: 主线程尝试从空队列取东西take()失败阻塞，由子线程放入东西唤醒add().</li>
+<li>条件队列: 主线程wait/await在内置或显示的条件队列上，由子线程notify/signal唤醒</li>
+</ul>
+</li>
+<li>Future的get()方法<br>  提交子线程到线程池执行的时候维护好所有子线程的Future对象，主线程循环调用所有Future对象的get方法等待子线程执行完成返回结果。</li>
+<li>CompletionService的take()方法<br>  提交所有子线程到ExecutorCompletionService线程池执行，主线程通过take方法等待所有子线程执行完并返回结果。</li>
+<li>Thread的join()方法<br>  创建Thread对象并start启动之后维护好所有子线程的Thread对象，在主线成中循环调用所有子线程这个Thread对象的join方法，等待所有子线程执行完成.</li>
+<li>栅栏CyclicBarrier<br>  栅栏是典型的等待所有线程到达统一栅栏位置的同步工具类。可以在所有子线程结束位置设置栅栏，待所有子线程达到栅栏位置后执行指定的Runnable线程，此方法并不是严格意义的等待所有子线程执行完成后继续进行主线程，而是执行另一个线程。</li>
+<li>线程池awaitTermination()方法<br>  ExecutorService的awaitTermination(): 这个方法作用是等待提交的任务全部执行完成，但是需要设置超时时间。若超时则返回false，所以并不能准确估计需要等待多长时间。</li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/01/16/java-sort/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
+var disqus_identifier = '2017/01/18/java-main-thread-wait-thread-finish/';
+var disqus_title = 'java main thread wait thread finish';
+var disqus_url = 'https://jiemin.in/2017/01/18/java-main-thread-wait-thread-finish/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//jiemin.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 <a href="https://jiemin.in">jiemin</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>

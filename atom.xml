@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiemin.in/"/>
-  <updated>2017-01-18T06:09:17.000Z</updated>
+  <updated>2017-01-18T12:50:26.000Z</updated>
   <id>https://jiemin.in/</id>
   
   <author>
@@ -16,11 +16,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Java Thread</title>
-    <link href="https://jiemin.in/2017/01/16/Java-Thread/"/>
-    <id>https://jiemin.in/2017/01/16/Java-Thread/</id>
+    <title>java main thread wait thread finish</title>
+    <link href="https://jiemin.in/2017/01/18/java-main-thread-wait-thread-finish/"/>
+    <id>https://jiemin.in/2017/01/18/java-main-thread-wait-thread-finish/</id>
+    <published>2017-01-18T07:32:02.000Z</published>
+    <updated>2017-01-18T12:50:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>多个子线程执行完成，主线程才继续执行:</p>
+<ul>
+<li>闭锁CountDownLatch<ul>
+<li>闭锁时典型的等待时间发生的同步工具，将闭锁的初始值设置为与子线程数目相同，每个子线程执行完成都调用CountDownLatch的CountDown()方法，主线程调用await()方法等待闭锁的计数值变为0之后恢复执行.</li>
+</ul>
+</li>
+<li>线程间同步方法[假设有N个子线程，每个子线程执行完成都将一个全局的原子变量加1，某个线程将原子变量加到N之后，则利用下面三个方法唤醒]<ul>
+<li>Semaphore: 信号量机制，主线程申请占用信号量失败，由子线程释放信号量唤醒.</li>
+<li>BlockingQueue: 主线程尝试从空队列取东西take()失败阻塞，由子线程放入东西唤醒add().</li>
+<li>条件队列: 主线程wait/await在内置或显示的条件队列上，由子线程notify/signal唤醒</li>
+</ul>
+</li>
+<li>Future的get()方法<br>  提交子线程到线程池执行的时候维护好所有子线程的Future对象，主线程循环调用所有Future对象的get方法等待子线程执行完成返回结果。</li>
+<li>CompletionService的take()方法<br>  提交所有子线程到ExecutorCompletionService线程池执行，主线程通过take方法等待所有子线程执行完并返回结果。</li>
+<li>Thread的join()方法<br>  创建Thread对象并start启动之后维护好所有子线程的Thread对象，在主线成中循环调用所有子线程这个Thread对象的join方法，等待所有子线程执行完成.</li>
+<li>栅栏CyclicBarrier<br>  栅栏是典型的等待所有线程到达统一栅栏位置的同步工具类。可以在所有子线程结束位置设置栅栏，待所有子线程达到栅栏位置后执行指定的Runnable线程，此方法并不是严格意义的等待所有子线程执行完成后继续进行主线程，而是执行另一个线程。</li>
+<li>线程池awaitTermination()方法<br>  ExecutorService的awaitTermination(): 这个方法作用是等待提交的任务全部执行完成，但是需要设置超时时间。若超时则返回false，所以并不能准确估计需要等待多长时间。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;多个子线程执行完成，主线程才继续执行:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;闭锁CountDownLatch&lt;ul&gt;
+&lt;li&gt;闭锁时典型的等待时间发生的同步工具，将闭锁的初始值设置为与子线程数目相同，每个子线程执行完成都调用CountDownLatch的CountDown()方法，主
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java Sort</title>
+    <link href="https://jiemin.in/2017/01/16/java-sort/"/>
+    <id>https://jiemin.in/2017/01/16/java-sort/</id>
     <published>2017-01-16T08:27:02.000Z</published>
-    <updated>2017-01-18T06:09:17.000Z</updated>
+    <updated>2017-01-18T07:32:29.000Z</updated>
     
     <content type="html"><![CDATA[<p>排序分为内部排序和外部排序，下面主要讨论内部排序。</p>
 <ul>
@@ -64,9 +103,15 @@
 </li>
 </ul>
 <h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><ul>
-<li>基本排序： 归并排序是将两个(或两个以上)有序表合并成一个新的有序表</li>
+<li>基本思想： 归并排序是将两个(或两个以上)有序表合并成一个新的有序表，即把待排序序列分为若干个子序列，每个子序列是有序的。然后把有序子序列合并为整体有序序列</li>
+<li>实例：<br><img src="/images/order-alogrithm-06.jpg" alt=""></li>
+<li>实现：<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">mergingSort</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="keyword">int</span> array[] = &#123;<span class="number">57</span>,<span class="number">68</span>,<span class="number">59</span>,<span class="number">52</span>,<span class="number">72</span>,<span class="number">28</span>,<span class="number">96</span>,<span class="number">33</span>,<span class="number">24</span>,<span class="number">19</span>&#125;;</div><div class="line">    sort(array,<span class="number">0</span>, array.length-<span class="number">1</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sort</span><span class="params">(<span class="keyword">int</span>[] data, <span class="keyword">int</span> left, <span class="keyword">int</span> right)</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(left&lt;right)&#123;</div><div class="line">        <span class="keyword">int</span> center = (left+right)/<span class="number">2</span>;</div><div class="line">        sort(data,left,center);  <span class="comment">//对左边数组进行递归</span></div><div class="line">        sort(data,center+<span class="number">1</span>, right); <span class="comment">//对右边数组进行递归</span></div><div class="line">        merge(data,left,center,right); <span class="comment">//合并</span></div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">merge</span><span class="params">(<span class="keyword">int</span>[] data, <span class="keyword">int</span> left, <span class="keyword">int</span> center, <span class="keyword">int</span> right)</span></span>&#123;</div><div class="line">    <span class="keyword">int</span> [] tempArr = <span class="keyword">new</span> <span class="keyword">int</span>[data.legth];</div><div class="line">    <span class="keyword">int</span> middle = center+<span class="number">1</span>;</div><div class="line">    <span class="keyword">int</span> third = left;</div><div class="line">    <span class="keyword">int</span> temp = left;</div><div class="line"></div><div class="line">    <span class="keyword">while</span>(left&lt;=center&amp;&amp;mid&lt;=right)&#123;</div><div class="line">        <span class="keyword">if</span>(data[left]&lt;=data[middle])&#123; <span class="comment">//从两个数组中取出最小的放入中间数组</span></div><div class="line">            tempArr[third++]=data[left++];</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">else</span>&#123;</div><div class="line">            tempArr[third++]=data[middle++];</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">while</span>(middle&lt;=right)&#123; <span class="comment">//剩余部分依次放入中间数组</span></div><div class="line">        tempArr[third++]=data[middle++];</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">while</span>(left&lt;=center)&#123;</div><div class="line">        tempArr[third++]=data[left++];</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">while</span>(temp&lt;=right)&#123; <span class="comment">//将中间数组中的内容复制回原数组</span></div><div class="line">        data[temp]=tempArr[temp++];</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
 </ul>
-<h2 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h2>]]></content>
+<h2 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h2><ul>
+<li>基本思想： 将所有待比较数值统一为同样的数位长度，数位较短的数前面补零。然后，从最低位开始进行一次排序，依次进行一次排序。这样，从最低位排序一直到最高位排序完成以后，数列就变成一个有序序列。</li>
+</ul>
+]]></content>
     
     <summary type="html">
     

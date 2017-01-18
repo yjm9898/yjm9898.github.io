@@ -116,7 +116,7 @@
 <h5 id="拒绝消息"><a href="#拒绝消息" class="headerlink" title="拒绝消息"></a>拒绝消息</h5><p>当一个消费者接收到某条消息后，处理过程有可能成功，有可能失败。应用可以向消息代理表明，本条消息由于”拒绝消息(Rejecting messages)”的原因处理失败了(或者未能在此时完成)。当拒绝某条消息时，应用可以告诉消息代理broker如何处理这条消息–销毁或者重新放入队列。当次队列只有一个消费者时，请确认不要犹豫拒绝消息并且选择了重新放入队列的行为而引起消息在同一个消费者身上无限循环的情况发生。</p>
 <h5 id="Negative-Acknowledgements"><a href="#Negative-Acknowledgements" class="headerlink" title="Negative Acknowledgements"></a>Negative Acknowledgements</h5><p>在AMQP中，basic.reject方法用来执行拒绝消息的操作。但basic.reject有个限制：你不能使用它拒绝多个带有消息回执(acknowledgements)的消息。但是如果你使用的是RabbitMQ,那么你可以使用被称作negative acknowledgements(nacks)的扩展来解决这个问题</p>
 <h5 id="预取消息"><a href="#预取消息" class="headerlink" title="预取消息"></a>预取消息</h5><p>在多个消费者共享一个队列的案例中，明确指定在收到下一个确认回执前每个消费者一次可以接收多少条消息是非常有用的。这可以在 <strong>试图批量发布消息的时候起到简单的负载均衡和提高消息吞吐量的作用</strong></p>
-</div></article></div></main><footer><div class="paginator"><a href="/2017/01/16/Java-Thread/" class="prev">上一篇</a><a href="/2017/01/14/you-should-To-Zero-Heart-to-code/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
+</div></article></div></main><footer><div class="paginator"><a href="/2017/01/16/java-sort/" class="prev">上一篇</a><a href="/2017/01/14/you-should-To-Zero-Heart-to-code/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
 var disqus_identifier = '2017/01/15/RabbitMQ-QuickStart-One/';
 var disqus_title = 'RabbitMQ QuickStart One';
 var disqus_url = 'https://jiemin.in/2017/01/15/RabbitMQ-QuickStart-One/';
