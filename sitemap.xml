@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jiemin.in/2017/01/19/Java-Thread-day02/</loc>
+    
+    <lastmod>2017-01-19T15:07:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jiemin.in/2017/01/18/java-main-thread-wait-thread-finish/</loc>
     
-    <lastmod>2017-01-18T12:50:26.000Z</lastmod>
+    <lastmod>2017-01-19T13:46:17.000Z</lastmod>
     
   </url>
   
