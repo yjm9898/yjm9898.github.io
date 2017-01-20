@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> java thread 03 · Hexo Blog</title><meta name="description" content="java thread 03 - jiemin"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://jiemin.in/atom.xml" title="Hexo Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/jiemin4j" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/yjm9898" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">java thread 03</h1><div class="post-info">2017年1月20日</div><div class="post-content"><h2 id="线程的阻塞"><a href="#线程的阻塞" class="headerlink" title="线程的阻塞"></a>线程的阻塞</h2><p>为了解决对共享存储区的访问冲突，所以引入了同步机制。当多个线程对共享资源的访问，显然同步机制不够，所以需要阻塞机制的支持。</p>
+<blockquote>
+<p>阻塞是指暂停一个线程的执行以等待某个条件发生。jdk提供了大量方法来支持阻塞.</p>
+</blockquote>
+<ol>
+<li>sleep(): sleep()允许指定以毫秒为单位的一段时间为参数，它使得线程在制定的时间内进入阻塞状态，不能得到cpu时间，指定时间一过，线程重新进入可制定状态。</li>
+<li>suspend() or resume(): 两个方法配套使用，suspend()使得线程进入阻塞状态，并且不会自动恢复，必须由resume()调用，才能使得线程重新进入可执行状态。应用场景：suspend()和resume()被用在等待另一个线程产生结果的情形：测试发现结果还没有产生后，让线程阻塞，另一个线程产生了结果后，调用resume()恢复执行.</li>
+<li>yield(): 使得线程放弃当前分得的cpu时间，但是 <strong>不使线程进入阻塞状态</strong>,即线程仍处于可执行状态，随时可能再次分得CPU时间。调用yield()的效果等于调度程序认为该线程已执行了足够时间从而转到另一个线程。</li>
+<li>wait() or notify(): 两个方法配套使用，wait()使得线程进入阻塞状态，它有两种形式，一种允许指定已毫秒为单位的一段时间作为参数，另一种没有参数，前者当对应的notify()被调用或者超出指定时间线程</li>
+</ol>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/01/19/Java-Thread-day02/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
+var disqus_identifier = '2017/01/20/java-thread-03/';
+var disqus_title = 'java thread 03';
+var disqus_url = 'https://jiemin.in/2017/01/20/java-thread-03/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//jiemin.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 <a href="https://jiemin.in">jiemin</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
