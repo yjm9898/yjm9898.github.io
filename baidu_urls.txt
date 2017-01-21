@@ -1,3 +1,3 @@
+https://jiemin.in/2017/01/21/bootstrap-todo-site/
 https://jiemin.in/2017/01/20/java-thread-03/
 https://jiemin.in/2017/01/19/Java-Thread-day02/
-https://jiemin.in/2017/01/18/java-main-thread-wait-thread-finish/

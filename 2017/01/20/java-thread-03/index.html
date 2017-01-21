@@ -15,7 +15,7 @@
 <p>第一：调用 notify() 方法导致解除阻塞的线程是从因调用该对象的 wait() 方法而阻塞的线程中随机选取的，我们无法预料哪一个线程将会被选择，所以编程时要特别小心，避免因这种不确定性而产生问题。</p>
 <p>第二：除了 notify()，还有一个方法 notifyAll() 也可起到类似作用，唯一的区别在于，调用 notifyAll() 方法将把因调用该对象的 wait() 方法而阻塞的所有线程一次性全部解除阻塞。当然，只有获得锁的那一个线程才能进入可执行状态。</p>
 <p>谈到阻塞，就不能不谈一谈死锁，略一分析就能发现，suspend() 方法和不指定超时期限的 wait() 方法的调用都可能产生死锁。遗憾的是，Java 并不在语言级别上支持死锁的避免，我们在编程中必须小心地避免死锁。<br>`</p>
-</div></article></div></main><footer><div class="paginator"><a href="/2017/01/19/Java-Thread-day02/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
+</div></article></div></main><footer><div class="paginator"><a href="/2017/01/21/bootstrap-todo-site/" class="prev">上一篇</a><a href="/2017/01/19/Java-Thread-day02/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'jiemin';
 var disqus_identifier = '2017/01/20/java-thread-03/';
 var disqus_title = 'java thread 03';
 var disqus_url = 'https://jiemin.in/2017/01/20/java-thread-03/';

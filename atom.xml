@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiemin.in/"/>
-  <updated>2017-01-20T16:42:36.000Z</updated>
+  <updated>2017-01-21T14:37:06.000Z</updated>
   <id>https://jiemin.in/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>bootstrap todo site</title>
+    <link href="https://jiemin.in/2017/01/21/bootstrap-todo-site/"/>
+    <id>https://jiemin.in/2017/01/21/bootstrap-todo-site/</id>
+    <published>2017-01-21T13:19:38.000Z</published>
+    <updated>2017-01-21T14:37:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="todo-app"><a href="#todo-app" class="headerlink" title="todo app"></a>todo app</h2><ol>
+<li>下载bootstrap必要的文件<a href="https://github.com/twbs/bootstrap/releases/download/v4.0.0-alpha.6/bootstrap-4.0.0-alpha.6-dist.zip" target="_blank" rel="external"></a></li>
+<li>创建目录结构<br> .<br>├── css<br>│   └── bootstrap.min.css<br>├── font<br>├── index.html<br>└── js<br> └── bootstrap.min.js</li>
+<li></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;todo-app&quot;&gt;&lt;a href=&quot;#todo-app&quot; class=&quot;headerlink&quot; title=&quot;todo app&quot;&gt;&lt;/a&gt;todo app&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;下载bootstrap必要的文件&lt;a href=&quot;https://github.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>java thread 03</title>
     <link href="https://jiemin.in/2017/01/20/java-thread-03/"/>
     <id>https://jiemin.in/2017/01/20/java-thread-03/</id>
     <published>2017-01-20T02:49:13.000Z</published>
-    <updated>2017-01-20T16:42:36.000Z</updated>
+    <updated>2017-01-20T16:46:08.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="线程的阻塞"><a href="#线程的阻塞" class="headerlink" title="线程的阻塞"></a>线程的阻塞</h2><p>为了解决对共享存储区的访问冲突，所以引入了同步机制。当多个线程对共享资源的访问，显然同步机制不够，所以需要阻塞机制的支持。</p>
 <blockquote>
