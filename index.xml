@@ -6,10 +6,147 @@
     <description>Recent content on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Nov 2023 15:22:26 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux Shell Notebook</title>
+      <link>/posts/2023/11/08/linux-shell-notebook/</link>
+      <pubDate>Wed, 08 Nov 2023 15:22:26 +0800</pubDate>
+      
+      <guid>/posts/2023/11/08/linux-shell-notebook/</guid>
+      
+        <description>&lt;h1 id=&#34;工作中常用linux-脚本命令&#34;&gt;工作中常用linux 脚本命令&lt;/h1&gt;
+&lt;p&gt;比如在服务器上，需要批量删除服务器上停用掉的容器。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker ps -a  -f &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;Exited=0&amp;#39;&lt;/span&gt;  |awk &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;NR != 1 {print $1}&amp;#39;&lt;/span&gt;|xargs docker rm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;命令解释： -f 过滤容器中状态为退出的容器
+awk 打印第一列，不是第一行
+xargs 用上一个管道的输出作为当前命令的参数&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Spring Starter Nexus Repository Skill Stack</title>
+      <link>/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/</link>
+      <pubDate>Wed, 08 Nov 2023 10:08:55 +0800</pubDate>
+      
+      <guid>/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/</guid>
+      
+        <description>&lt;h1 id=&#34;spring-boot-starter封装编写和仓库存储&#34;&gt;spring-boot starter封装编写和仓库存储&lt;/h1&gt;
+&lt;p&gt;starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解boot原理，更好的复用代码.&lt;/p&gt;
+&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>First Blog</title>
+      <link>/posts/install-hugo-as-my-blog-site/</link>
+      <pubDate>Tue, 07 Nov 2023 17:32:19 +0800</pubDate>
+      
+      <guid>/posts/install-hugo-as-my-blog-site/</guid>
+      
+        <description>&lt;p&gt;前言&lt;/p&gt;
+&lt;p&gt;最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到一位博主的&lt;a href=&#34;https://soulteary.com/&#34;&gt;博客&lt;/a&gt;，很受震撼，慢慢积累吧。在自己的服务器上来部署一个博客。&lt;/p&gt;
+&lt;h2 id=&#34;安装scoop&#34;&gt;安装scoop&lt;/h2&gt;
+&lt;p&gt;步骤一：打开powershell 执行策略更改：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;Set-ExecutionPolicy&lt;/span&gt; -ExecutionPolicy RemoteSigned -Scope CurrentUser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;步骤二： 安装scoop&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;irm &lt;/span&gt;get.scoop.sh | &lt;span style=&#34;color:#007020&#34;&gt;iex
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;hugo安装&#34;&gt;Hugo安装&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-2-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scoop install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;站点新建&#34;&gt;站点新建&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site ./ -f yml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;添加主题&#34;&gt;添加主题&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;新建日志&#34;&gt;新建日志&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/first-blog.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;当文档编写完成，修改头部draft字段为false.&lt;/p&gt;
+&lt;h2 id=&#34;启动-hugo服务&#34;&gt;启动 hugo服务&lt;/h2&gt;
+&lt;p&gt;hugo server -D&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于杰民和 m.jiemin.xyz</title>
+      <link>/about/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/me.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 &lt;code&gt;m.jiemin.xyz&lt;/code&gt; ，我名字的拼音 &lt;code&gt;jiemin&lt;/code&gt; ，再加上 &lt;code&gt;.xyz&lt;/code&gt; 后缀。&lt;/p&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;
+&lt;p&gt;我目前是一名后端程序员，在重庆一家网络公司做开发工作。&lt;/p&gt;
+&lt;p&gt;我是一个觉得代码有趣，并打算把写代码作为事业奋斗一辈子的普通程序员。在完成事情的过程中，喜欢追求最优解，是轻微代码洁癖患者。&lt;/p&gt;
+&lt;h2 id=&#34;建站理由&#34;&gt;建站理由&lt;/h2&gt;
+&lt;p&gt;吾从小学开始到现在工作阶段，心里时常会出现对某些知识点似懂非懂的感觉，知识一直在学，也一直在遗忘，也曾尝试去梳理，最开始手写去整理，结果笔记本也是经常丢，自己写的字迹又有些潦草，因此也就扔到了废纸堆；接着使用一些思维导图软件去整理自己的知识点，用着效果还不错，包括我每次制作PPT、做项目，也都是用思维导图构筑这样的一个架构，再去做事情就显得简单易上手。&lt;/p&gt;
+&lt;p&gt;后来也是发现部分知识点是需要一个详细的过程去梳理，可能是配合图的一段文字，因此又学习了 Markdown 配合 XMind 使用，效果很不错，但仍未用大量时间做出太多梳理。&lt;/p&gt;
+&lt;p&gt;这次使用 Hugo 静态博客搭建这样一个简单的个人网站,其主要目的还是想对自己所学所思做一个系统的整理,总结一下大致有这些&lt;strong&gt;原因&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将自己过往所思所学梳理成一个完整的知识架构，而不是现在脑子混乱的状态&lt;/li&gt;
+&lt;li&gt;借用网站这种公开性质形式对自己起到督促作用，而不是现在内心慵懒的状态&lt;/li&gt;
+&lt;li&gt;借用此形式培养自己一个愿意写时常记的好习惯，而不是现在双手呆滞的状态&lt;/li&gt;
+&lt;li&gt;将自己的所学知识与别人分享，也收获别人反馈，而不是现在全身闭环的状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;知识需要管理&#34;&gt;知识需要管理&lt;/h2&gt;
+&lt;p&gt;信息不经过整理分析就储存起来完全没有作用，一定要分析才储存，并建立简单有效的回溯机制。  信息经过：“收集、整理、分析、储存、搜索”这个5个步骤才能在未来帮助你决策，信息才会变成智慧。  图像是最容易理解的方式，所以要学会用图像来呈现你想了解或表达的事物。图像也会让隐性知识显性话。  学会用纸＋笔比软件效率更高。  所有收获与人分享&lt;/p&gt;
+&lt;h2 id=&#34;断舍离&#34;&gt;断舍离&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://ossjiemin.oss-cn-hangzhou.aliyuncs.com/2023/image-20231109140717382.png&#34; alt=&#34;image-20231109140717382&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ossjiemin.oss-cn-hangzhou.aliyuncs.com/2023/image-20231109140746247.png&#34; alt=&#34;image-20231109140746247&#34;&gt;&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>重读《影响力》</title>
@@ -1149,238 +1286,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;p&gt;当源文件项目有更新时，将自动生成网页。&lt;/p&gt;
 &lt;p&gt;那么，这样就可以方便的通过手机更新博客了。&lt;/p&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>别了， 2020！</title>
-      <link>/post/goodbye-2020/</link>
-      <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
-      
-      <guid>/post/goodbye-2020/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/other/me.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-&lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;
-&lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;
-&lt;h2 id=&#34;修行&#34;&gt;修行&lt;/h2&gt;
-&lt;p&gt;总结了一个小公式：&lt;/p&gt;
-&lt;p&gt;「想 &amp;lt; 看 &amp;lt; 读 &amp;lt; 说 &amp;lt; 思 &amp;lt; 写 &amp;lt; 行」&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;子曰：“始吾于人也，听其言而信其行；今吾于人也，听其言而观其行。于予与改是。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;陈嘉映先生在《十三邀》中的一段话：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我有一个想法，叫反思与过度反思。一方面哲学是一种反思，在那个意义上无不可追问无不可反思；另一方面，你事事反思，就会变成过度反思。我们现代人的精神说理追求是一个过度反思的时代。所以我经常跟我学生说，反思要跟天性的力量相配合，你有多少天性力量，你做多少反思。你要在你一生中逐渐明白你的天性有多强，你一开始可能看不清楚，但是别忘了，如果你的天性很孱弱，然后你拼命去反思，带来的结果，从个人来说，经常是毁灭性的。一个人爱反思，但没力量抗住反思，反思就把他压垮了。希腊人的幸运是，他们的天性太健全了，他们生活在一个对思想特别有利的环境和历史机遇之中。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是个时常自省的人。不过最近一年，我给自己提了要求，避免 &lt;strong&gt;过度自省&lt;/strong&gt; 。什么是过度自省？就是自省之后，没能纠正，继续自省，如此反复。自省当然是好事，但过度自省，却容易适得其反。&lt;/p&gt;
-&lt;p&gt;人要改变，的确是非常困难的。尤其是成人，各种思维习惯、行为习惯，基本上已经定型。但是我们也可以通过「理性」去培养新的习惯，去遏制固有的行为模式，与旧的不良习惯抗衡。而要迈出这一步，「想明白」当然是前提，但是光「想明白」是远远不够的，必须行动起来。先从最小的行动开始，然后不断「迭代」。迭代是计算机科学中非常重要的思维模式，通过设定一个边界，不断重复反馈，接近并达到目标。边界很重要，避免陷入死循环。过度自省，实际就是一种死循环。&lt;/p&gt;
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-&lt;p&gt;2020 年，旅舍损失了 2 个月的营业额，尤其是春节，原本都预订满的房间，后面全部都退了。不过到了 4 月份之后，基本也就恢复了正常。因此，相对全年而言，影响并不是特别的大，在可承受范围内。&lt;/p&gt;
-&lt;h2 id=&#34;锻炼&#34;&gt;锻炼&lt;/h2&gt;
-&lt;p&gt;这一年最大的收获是，锻炼已经成为常态，是再普通不过的一项活动了。当每天都有运动的时候，其实没去记录也不会觉得有什么问题。&lt;/p&gt;
-&lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;「在做事中学习」&lt;/strong&gt; ，我在今年不断提醒自己。重写了自己的一个项目： &lt;a href=&#34;https://github.com/xianmin/EveReader&#34;&gt;xianmin/EveReader: Epub Reader, focused on annotation.&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;值得一提的是，掌握了一项新技能——吹口琴。口琴最大的好处是便于携带。我练的是半音阶口琴，音域广，可以演奏许多曲子。目前只能算是刚入门吧，视奏大部分流行曲没问题，演奏一些古典曲就有难度了。有这么一个小乐器傍身，到户外休闲的时候，拿出来把玩一番也是挺有意思的。&lt;/p&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;其实也没更多可说的。这一年整体状态一般，博客更新频率降低，总感觉自己缺乏做事儿的干劲和热情。目前有了一个重要的决定和计划，期望新的一年能有更多的精彩吧！&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的 2020 年阅读总结</title>
-      <link>/post/review-read-2020/</link>
-      <pubDate>Mon, 01 Feb 2021 15:54:00 +0800</pubDate>
-      
-      <guid>/post/review-read-2020/</guid>
-      
-        <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
-&lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;
-&lt;h2 id=&#34;霍乱时期的爱情-杰作&#34;&gt;《霍乱时期的爱情》 - 杰作&lt;/h2&gt;
-&lt;p&gt;马尔克斯的名作，疫情封锁期间看的。永恒的忠诚和不渝的爱情，似乎很令人向往吧？可通篇读来，却满是孤独。&lt;/p&gt;
-&lt;h2 id=&#34;走出唯一真理观-杰作&#34;&gt;《走出唯一真理观》 - 杰作&lt;/h2&gt;
-&lt;p&gt;这本书是我在本年度读过的最好的一本书。感触较深的几章：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;读懂一两个大哲学家&lt;/li&gt;
-&lt;li&gt;思想增益元气&lt;/li&gt;
-&lt;li&gt;哲学关心的是事物的意义&lt;/li&gt;
-&lt;li&gt;说理与对话&lt;/li&gt;
-&lt;li&gt;“说理”四人谈&lt;/li&gt;
-&lt;li&gt;反思与过度反思&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;陈嘉映老师是我的楷模。我读书读的很杂，什么都想了解一点，什么都想学习一点，却经常有一个问题困扰自己，这些书本上的知识究竟对我的现实生活有什么用？找不到答案。为什么找不到？因为事儿做的太少，人生经验太少，专业知识又不足，反思这个、反思那个，反思的结果除了徒增痛苦，没任何意义。最终还是要落实到实际行动上去啊！&lt;/p&gt;
-&lt;p&gt;「要靠比较厚重一点的生活把反思托起来，否则，反思会飘起来，我们会飘在反思里。」&lt;/p&gt;
-&lt;p&gt;陈嘉映老师的著作，确实给了我非常大的警醒：多做事、多行动，少反思、少乱想。&lt;/p&gt;
-&lt;p&gt;还有关于学习方面的启发：比如想学习哲学，先读懂一两个大哲学家，翻译是很好的训练。&lt;/p&gt;
-&lt;h2 id=&#34;沈从文的前半生-沈从文的后半生-杰作&#34;&gt;《沈从文的前半生》，《沈从文的后半生》 - 杰作&lt;/h2&gt;
-&lt;p&gt;沈从文的传记。他的一生，见证了 20 世纪中国的时局动荡，而这些动荡，又是如何一次又一次的影响了他个人的命运变迁。很遗憾，沈老在建国之后就基本没怎么写作了。但是看到后面，经历了种种磨难，年近80的沈老前往美国，与阔别了几十年的老友会面，在美国巡回演讲，真是深受感动。&lt;/p&gt;
-&lt;h2 id=&#34;黑客与画家-杰作&#34;&gt;《黑客与画家》 - 杰作&lt;/h2&gt;
-&lt;p&gt;主要是重读了「设计」相关的内容。任何一项工作，如果只是把它当作枯燥乏味的一套流程，那么就丧失了提升「品味」的可能性。&lt;/p&gt;
-&lt;p&gt;怎么样提升品味呢？前提是把自己当作设计者，然后不断从事设计工作，模仿他人好的设计。要勤于思考为什么这样设计更好，而不是那样。向大众、同行展示，从外界获取反馈。一个好的设计，必然是要有人认可的。&lt;/p&gt;
-&lt;p&gt;为什么会存在比其他设计更好的杰出设计？这是一个好问题，作者在《设计者的品味》这一章节中也列出了「好设计」的共同原则。这一章节适合经常拿出来重读，反思自己的设计。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;好设计是简单的设计
-好设计是永远不过时的设计
-好设计是解决主要问题的设计
-好设计是启发性的设计
-好设计通常是有点趣味性的设计
-好设计是艰苦的设计
-好设计是看似很容易的设计
-好设计是对称的设计
-好设计是模仿大自然的设计
-好设计是一种再设计
-好设计是能够复制的设计
-好设计常常是奇特的设计
-好设计是成批出现的
-好设计常常是大胆的设计&lt;/p&gt;
-&lt;p&gt;——《设计者的品味》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;关于好设计，我自己的补充：有序好过无序；和谐好过混乱；理性好过大众直觉。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;先做出原型，再逐步加工做出成品，这种方式有利于鼓舞士气，因为它使得你随时都可以看到工作的成效。开发软件的时候，我有一条规则：任何时候，代码都必须能够运行。如果你正在写的代码一个小时之后就可以看到运行结果，这好比让你看到不远处就是唾手可得的奖励，你因此会受到激励和鼓舞。&lt;/p&gt;
-&lt;p&gt;“用户需要的设计”，而不是“用户要求的设计”，
-除非设定目标用户，否则一种设计的好坏根本无从谈起。&lt;/p&gt;
-&lt;p&gt;——《设计与研究》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;逍遥游-当-庄子-遭遇现实-力作&#34;&gt;逍遥游:当《庄子》遭遇现实 - 力作&lt;/h2&gt;
-&lt;p&gt;在《后记》中，熊逸先生谈了他的研究方法：&lt;/p&gt;
-&lt;p&gt;一、走进去：&lt;/p&gt;
-&lt;p&gt;「借鉴人类学家在土著部落搞田野调查的态度，即深入到土著人的生活里，讲他们的语言，参加他们的礼拜和狂欢，先让自己成为他们的一员，在他们的内部理解他们」。&lt;/p&gt;
-&lt;p&gt;二、走出来：&lt;/p&gt;
-&lt;p&gt;「所谓走出来，就是用现代知识来思考古代社会。毕竟文明发展了，知识进步了，今天种种社会科学的研究已经大大超越于古人之上，让我们可以站在无数巨人的肩膀上，享受一下比古人耳聪目明的乐趣。」&lt;/p&gt;
-&lt;h2 id=&#34;构建之法-现代软件工程-力作&#34;&gt;《构建之法：现代软件工程》 - 力作&lt;/h2&gt;
-&lt;p&gt;由于我没受过系统的计算机教育，实际的开发经验也并不多，对于「软件工程」始终只有一个模糊的概念。我在此前也接触过其他的「软件工程」的教材，印象中过于偏重理论了，读者根本不知从哪里开始实践（很可能教材的著作者本身就缺乏实践）。邹欣老师的这本书就很不一样，有趣、且实际的多，这可能是因为邹老师有大量的一线软件开发的经验，他能够把理论与实践很好的结合起来。这本书可以作为一本「软件开发」的长期参考书。&lt;/p&gt;
-&lt;h2 id=&#34;探索智慧-从达尔文到芒格-可用的书&#34;&gt;《探索智慧：从达尔文到芒格》 - 可用的书&lt;/h2&gt;
-&lt;p&gt;又是一本参考书。不知如何评价。算是对芒格的所有公开出版物的笔记汇总。&lt;/p&gt;
-&lt;h2 id=&#34;net-bible&#34;&gt;NET Bible&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/New%5FEnglish%5FTranslation&#34;&gt;New English Translation - Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://netbible.org/bible/&#34;&gt;NET Bible&lt;/a&gt; - 免费在线阅读&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;NET 是 New English Translation 的简称，新翻译的语言更贴近当代读者的日常使用习惯。我纯粹是好奇《圣经》说了什么，顺便学习英语。读了几个篇章。&lt;/p&gt;
-&lt;h2 id=&#34;the-alchemist-力作&#34;&gt;The Alchemist - 力作&lt;/h2&gt;
-&lt;p&gt;中文译名是《牧羊少年奇幻之旅》。一本非常轻松好读的小书。很多有意思的金句，部分摘录：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It’s what you have always wanted to accomplish. Everyone, when they are young, knows what their Personal Legend is.&lt;/p&gt;
-&lt;p&gt;It prepares your spirit and your will, because there is one great truth on this planet: whoever you are, or whatever it is that you do, when you really want something, it’s because that desire originated in the soul of the universe. It’s your mission on earth.&lt;/p&gt;
-&lt;p&gt;The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
-&lt;p&gt;To do that successfully, I must have no fear of failure. It was my fear of failure that first kept me from attempting the Master Work.&lt;/p&gt;
-&lt;p&gt;Courage is the quality most essential to understanding the Language of the World.&lt;/p&gt;
-&lt;p&gt;When a person really desires something, all the universe conspires to help that person to realize his dream.&lt;/p&gt;
-&lt;p&gt;What you still need to know is this: before a dream is realized, the Soul of the World tests everything that was learned along the way. It does this not because it is evil, but so that we can, in addition to realizing our dreams, master the lessons we’ve learned as we’ve moved toward that dream. That’s the point at which most people give up. It’s the point at which, as we say in the language of the desert, one ‘dies of thirst just when the palm trees have appeared on the horizon.&lt;/p&gt;
-&lt;p&gt;It said that the darkest hour of the night came just before the dawn.&lt;/p&gt;
-&lt;p&gt;Everything that happens once can never happen again. But everything that happens twice will surely happen a third time.&lt;/p&gt;
-&lt;p&gt;No matter what he does, every person on earth plays a central role in the history of the world. And normally he doesn’t know it.&lt;/p&gt;
-&lt;p&gt;And above all for his having met a woman of the desert who had told him that love would never keep a man from his Personal Legend.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;往年回顾&#34;&gt;往年回顾&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/review-read-2019/&#34;&gt;我的 2019 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>请重视你的牙！！！</title>
-      <link>/post/202012-attention-teeth/</link>
-      <pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate>
-      
-      <guid>/post/202012-attention-teeth/</guid>
-      
-        <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;
-&lt;p&gt;这得感谢去年一位朋友的劝告，他患了牙周炎，花费了不少钱，治疗过程也少不了煎熬，从此就对牙齿特别重视了。他看到我的牙齿牙缝比较大，就好心的提醒我，牙齿可能有问题，建议到医院检查一下。我的牙齿的确有点儿问题，比如牙龈出血；因为长期抽烟的原因，还堆积了不少牙结石。可是呢，又自我感觉不是太大的问题，牙齿从来不疼，啃骨头什么的也没困难，又缺乏口腔护理的知识，当时还没有特别重视。直到今年回家的时候，弟媳建议我要去洗牙，她在口腔医院工作，我才认识到，应该得抽个时间去医院看一看了。&lt;/p&gt;
-&lt;p&gt;到了医院，医生看了我的牙，担心把我的牙洗掉，让我去拍牙片。我当时还是有点儿紧张的，要是洗个牙都能把牙洗掉，我的牙得有多脆弱，而我却从来没意识到。拍了牙片，到另一位级别更高的医生那儿诊断，说我的前面八颗门牙被牙结石腐蚀的比较严重了，建议我配合药物治疗。考虑了一下，还是先把牙洗了之后，视情况再做决定。洗牙的过程并没有太波折，是出了点血，牙石也挺多的，可我的门牙还是很坚强的，没有想的那么脆弱。&lt;/p&gt;
-&lt;p&gt;洗过牙之后，口腔干净多了。多亏了朋友善意的提醒，让我重新审视自己的牙齿。&lt;/p&gt;
-&lt;p&gt;很多时候，就是因为忽视了小问题的存在，最终引发大问题。尤其是人的身体，要是哪儿有一点儿不舒服，实际上就已经是某个病症初期的警告了！&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>重返江南</title>
-      <link>/post/review-2020-return-jiangnan/</link>
-      <pubDate>Thu, 15 Oct 2020 11:11:00 +0800</pubDate>
-      
-      <guid>/post/review-2020-return-jiangnan/</guid>
-      
-        <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;我和我弟&lt;/h4&gt;
-          &lt;p&gt;摄于良渚遗址 - 2020 年 6 月&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;
-&lt;p&gt;他在地铁口接了我，找了家餐馆吃了一顿晚餐，闲聊起日常的生活。我问他，有考虑过在杭州定居吗？他也不知道。我们也许都只是大城市的过客吧。看着窗外繁华的街景，街上人来人往，车辆川流不息，那是城市喧嚣的声音。多少人苟且的活着，多少人为了在这个城市立足而努力工作，又有多少人为了那模糊的理想踌躇着前行，去往那看不见的未来。我又何曾离开过呢？我不过是又回来了。无奈的是，作为兄长，我从来都没有树立过好的榜样。&lt;/p&gt;
-&lt;p&gt;用餐结束，去往他的住处，一个单人宿舍，面积不大，该有的硬件一应俱全。这点我俩很像，对生活所需，没有过多的欲望。&lt;/p&gt;
-&lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
-&lt;p&gt;第二天，他去上班，我到外面走走。天阴蒙蒙的，下着小雨，刚到这座城市，我还是有点儿小小的兴奋。街上的行人，谈着项目，谈着工作，比我可要认真务实的多。想想自己，躲在云南的大山里，像是一个享受社会发展红利的寄生虫。&lt;/p&gt;
-&lt;p&gt;从弟弟的住处往南走，是西溪公园。人还是要多出门走走的，走没走过的路，看没看过的景，见没见过的人。就算没什么启发吧，也不至于局限了自己的思维。走到一处屋檐下避雨，抽烟、喝酒、写字。想到大城市的喧闹，不过是千万人的日常，我也不过是芸芸众生中渺小的一员。在国家这部巨大的机器中，一个平凡的个体如何能找寻到自身存在的价值呢？不可思议的重复与雷同。我该往何处去？&lt;/p&gt;
-&lt;p&gt;继续走吧！向更多人的地方去，向更少人的地方去，向繁华的地方去，向贫穷的地方去，向美的地方去，也向丑的地方去，向近的地方去，也向更远的地方去。&lt;/p&gt;
-&lt;p&gt;穿过西溪公园，走过隧道，经过灵隐景区，再到西湖。也许受疫情影响，一路都没有多少人。当天走了有二十多公里，我喜欢走路。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/image/memory/2020/06/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;西湖边&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
-&lt;p&gt;是时候去办正事儿了。此行的目的，是去参加表哥的婚礼。原计划在春节举办的婚礼，因为疫情的原因，推迟到了 6 月。作为从小一起长大的表弟，我必然是要出席的。离开杭州，前往常州——我的第二故乡。&lt;/p&gt;
-&lt;p&gt;我的父辈们，在 30 年前迎着改革开放的春风，从福建的深山中出来，到这片富饶的平原上闯荡。他们团结互助，吃苦耐劳，在异乡打出了一片自己的天地。我，还有我的同辈兄弟们，在这里出生，在这里成长，可以说是新常州人了。而常州对我而言，却是一座满是忧伤回忆的城市。&lt;/p&gt;
-&lt;p&gt;我原计划想先到母亲的新家安顿，她那儿离火车站近，可以睡在弟弟的房间。我跟父亲说了这个计划之后，电话那头是他带点儿哽咽的回复，可以不去她那儿吗，姑姑安排好了酒店。我明白父亲的感受，不知为何，悲从心生。姑姑和姑父到火车站接了我，带我去了酒店。同住酒店的，还有不少从老家、从其他城市赶来的亲属。&lt;/p&gt;
-&lt;p&gt;之后的几天，参加婚礼，探望父亲还有爷爷奶奶，探望母亲，与多年未见的兄弟们、叔伯们都见了面。我自己的时间其实挺充裕的，难得回家一趟，原本想再多玩几天，看看这座城市的变化，奈何家人过于关心，我也就没有了自由活动的机会，还是早点儿离开吧。&lt;/p&gt;
-&lt;h2 id=&#34;4&#34;&gt;4&lt;/h2&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/02.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/image/memory/2020/06/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;钱塘江边的日落&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;从常州回到杭州，在弟弟那儿又住了三晚。&lt;/p&gt;
-&lt;p&gt;在钱塘江边漫步，看江、看船、看日落。火红的太阳释放它最后的余晖，天边光芒万丈，
-江畔的高楼笼罩在金光之下，倒映在江面的光束随着水波荡漾，越拉越长，好一幅壮观的景象！大江东去，我隐隐地感到缺了点什么。我还有曾经的豪情壮志吗？家庭琐事、文化传统又怎能阻碍我前进的步伐呢？我走在一条旁人无法理解的道路上，也无需他人理解，我自己乐在其中，这不就挺好吗？生活，不过是一场生活，那就让生活多姿多彩吧！&lt;/p&gt;
-&lt;p&gt;江南，多么甜蜜的名字，古往今来多少诗词都颂不尽你的温柔。四海为家的浪子不必挽留，愿我像痴人一样肆意行走。别了，江南！&lt;/p&gt;</description>
       
     </item>
     

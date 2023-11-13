@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          关于杰民和 m.jiemin.xyz - 杰民的博客
+          Linux Shell Notebook - 杰民的博客
         </title>
     
 
@@ -29,7 +29,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="杰民" />
-  <meta name="description" content="你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 m.jiemin.xyz ，我名字的拼音 jiemin ，再加上 .xyz 后缀。 关于我 我目前是一名后端程序员，在重庆" />
+  <meta name="description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &amp;#39;Exited=0&amp;#39; |awk &amp;#39;NR != 1 {print $1}&amp;#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 杰民, 博客, 笔记" />
 
@@ -41,7 +41,7 @@
 <meta name="generator" content="Hugo 0.120.4" />
 
 
-<link rel="canonical" href="/about/" />
+<link rel="canonical" href="/posts/2023/11/08/linux-shell-notebook/" />
 
 
 
@@ -69,20 +69,20 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-<meta property="og:title" content="关于杰民和 m.jiemin.xyz" />
-<meta property="og:description" content="你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 m.jiemin.xyz ，我名字的拼音 jiemin ，再加上 .xyz 后缀。 关于我 我目前是一名后端程序员，在重庆" />
+<meta property="og:title" content="Linux Shell Notebook" />
+<meta property="og:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2023-11-01T00:00:00+00:00" />
+<meta property="og:url" content="/posts/2023/11/08/linux-shell-notebook/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-08T15:22:26+08:00" />
 <meta property="article:modified_time" content="2023-11-13T16:14:18+08:00" />
 
-<meta itemprop="name" content="关于杰民和 m.jiemin.xyz">
-<meta itemprop="description" content="你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 m.jiemin.xyz ，我名字的拼音 jiemin ，再加上 .xyz 后缀。 关于我 我目前是一名后端程序员，在重庆"><meta itemprop="datePublished" content="2023-11-01T00:00:00+00:00" />
+<meta itemprop="name" content="Linux Shell Notebook">
+<meta itemprop="description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的"><meta itemprop="datePublished" content="2023-11-08T15:22:26+08:00" />
 <meta itemprop="dateModified" content="2023-11-13T16:14:18+08:00" />
-<meta itemprop="wordCount" content="759">
+<meta itemprop="wordCount" content="103">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="关于杰民和 m.jiemin.xyz"/>
-<meta name="twitter:description" content="你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 m.jiemin.xyz ，我名字的拼音 jiemin ，再加上 .xyz 后缀。 关于我 我目前是一名后端程序员，在重庆"/>
+<meta name="twitter:title" content="Linux Shell Notebook"/>
+<meta name="twitter:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -352,7 +352,7 @@ if (!doNotTrack) {
       <article class="post">
         
         <header class="post-header">
-          <h1 class="post-title">关于杰民和 m.jiemin.xyz</h1>
+          <h1 class="post-title">Linux Shell Notebook</h1>
           
 
           <div class="post-meta">
@@ -367,8 +367,8 @@ if (!doNotTrack) {
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2023-11-01">
-      2023-11-01
+    <time datetime="2023-11-08">
+      2023-11-08
     </time>
   </div>
 
@@ -399,37 +399,19 @@ if (!doNotTrack) {
 
         
         <div class="post-content">
-          
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box">
-<figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/me.jpg" />
-    </div>
-    <a href="/me.jpg" itemprop="contentUrl"></a>
-  </figure>
+          <h1 id="工作中常用linux-脚本命令">工作中常用linux 脚本命令</h1>
+<p>比如在服务器上，需要批量删除服务器上停用掉的容器。</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker ps -a  -f <span style="color:#4070a0">&#39;Exited=0&#39;</span>  |awk <span style="color:#4070a0">&#39;NR != 1 {print $1}&#39;</span>|xargs docker rm
+</span></span></code></pre></td></tr></table>
 </div>
-
-<p>你好！我叫杰民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 <code>m.jiemin.xyz</code> ，我名字的拼音 <code>jiemin</code> ，再加上 <code>.xyz</code> 后缀。</p>
-<h2 id="关于我">关于我</h2>
-<p>我目前是一名后端程序员，在重庆一家网络公司做开发工作。</p>
-<p>我是一个觉得代码有趣，并打算把写代码作为事业奋斗一辈子的普通程序员。在完成事情的过程中，喜欢追求最优解，是轻微代码洁癖患者。</p>
-<h2 id="建站理由">建站理由</h2>
-<p>吾从小学开始到现在工作阶段，心里时常会出现对某些知识点似懂非懂的感觉，知识一直在学，也一直在遗忘，也曾尝试去梳理，最开始手写去整理，结果笔记本也是经常丢，自己写的字迹又有些潦草，因此也就扔到了废纸堆；接着使用一些思维导图软件去整理自己的知识点，用着效果还不错，包括我每次制作PPT、做项目，也都是用思维导图构筑这样的一个架构，再去做事情就显得简单易上手。</p>
-<p>后来也是发现部分知识点是需要一个详细的过程去梳理，可能是配合图的一段文字，因此又学习了 Markdown 配合 XMind 使用，效果很不错，但仍未用大量时间做出太多梳理。</p>
-<p>这次使用 Hugo 静态博客搭建这样一个简单的个人网站,其主要目的还是想对自己所学所思做一个系统的整理,总结一下大致有这些<strong>原因</strong>:</p>
-<ul>
-<li>将自己过往所思所学梳理成一个完整的知识架构，而不是现在脑子混乱的状态</li>
-<li>借用网站这种公开性质形式对自己起到督促作用，而不是现在内心慵懒的状态</li>
-<li>借用此形式培养自己一个愿意写时常记的好习惯，而不是现在双手呆滞的状态</li>
-<li>将自己的所学知识与别人分享，也收获别人反馈，而不是现在全身闭环的状态</li>
-</ul>
-<h2 id="知识需要管理">知识需要管理</h2>
-<p>信息不经过整理分析就储存起来完全没有作用，一定要分析才储存，并建立简单有效的回溯机制。  信息经过：“收集、整理、分析、储存、搜索”这个5个步骤才能在未来帮助你决策，信息才会变成智慧。  图像是最容易理解的方式，所以要学会用图像来呈现你想了解或表达的事物。图像也会让隐性知识显性话。  学会用纸＋笔比软件效率更高。  所有收获与人分享</p>
-<h2 id="断舍离">断舍离</h2>
-<p><img src="https://ossjiemin.oss-cn-hangzhou.aliyuncs.com/2023/image-20231109140717382.png" alt="image-20231109140717382"></p>
-<p><img src="https://ossjiemin.oss-cn-hangzhou.aliyuncs.com/2023/image-20231109140746247.png" alt="image-20231109140746247"></p>
+</div><p>命令解释： -f 过滤容器中状态为退出的容器
+awk 打印第一列，不是第一行
+xargs 用上一个管道的输出作为当前命令的参数</p>
 
         </div>
 
@@ -484,8 +466,8 @@ if (!doNotTrack) {
           <nav class="post-nav">
             
             
-              <a class="next" href="/acknowledgments/">
-                <span class="next-text nav-default">致谢</span>
+              <a class="next" href="/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/">
+                <span class="next-text nav-default">Spring Starter Nexus Repository Skill Stack</span>
                 <span class="prev-text nav-mobile">下一篇</span>
                 
                 <i class="iconfont">
@@ -546,7 +528,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "/about/";
+      this.page.url = "/posts/2023/11/08/linux-shell-notebook/";
     };
     function load_disqus() {
       
