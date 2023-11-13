@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>记录 on 杰民的博客</title>
-    <link>https://yjm9898.github.io/categories/%E8%AE%B0%E5%BD%95/</link>
+    <link>/categories/%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content in 记录 on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 15 Oct 2020 11:11:00 +0800</lastBuildDate>
-    <atom:link href="https://yjm9898.github.io/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重返江南</title>
-      <link>https://yjm9898.github.io/post/review-2020-return-jiangnan/</link>
+      <link>/post/review-2020-return-jiangnan/</link>
       <pubDate>Thu, 15 Oct 2020 11:11:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2020-return-jiangnan/</guid>
+      <guid>/post/review-2020-return-jiangnan/</guid>
       <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;我和我弟&lt;/h4&gt;
           &lt;p&gt;摄于良渚遗址 - 2020 年 6 月&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -33,17 +33,17 @@
     </item>
     <item>
       <title>十月是登山的季节</title>
-      <link>https://yjm9898.github.io/post/review-2019-10/</link>
+      <link>/post/review-2019-10/</link>
       <pubDate>Fri, 29 Nov 2019 06:55:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-10/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/review-2019-10/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2019/10/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2019/10/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2019/10/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2019/10/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -51,30 +51,30 @@
     </item>
     <item>
       <title>记录： 2019 年 8 月 - Listen To This</title>
-      <link>https://yjm9898.github.io/post/review-2019-07/</link>
+      <link>/post/review-2019-07/</link>
       <pubDate>Sun, 01 Sep 2019 10:30:52 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-07/</guid>
+      <guid>/post/review-2019-07/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记录： 2019 年 6 月 - 上公开课</title>
-      <link>https://yjm9898.github.io/post/review-2019-06/</link>
+      <link>/post/review-2019-06/</link>
       <pubDate>Wed, 03 Jul 2019 09:12:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-06/</guid>
+      <guid>/post/review-2019-06/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记录： 2019 年 5 月 - 尝试</title>
-      <link>https://yjm9898.github.io/post/review-2019-05/</link>
+      <link>/post/review-2019-05/</link>
       <pubDate>Fri, 31 May 2019 23:45:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-05/</guid>
+      <guid>/post/review-2019-05/</guid>
       <description>&lt;p&gt;这个月想要记录的内容，分解在前几篇的博文中了。为什么这么做呢？只是尝试换一种形式而已。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记录： 2019 年 4 月 - 新成就与新项目</title>
-      <link>https://yjm9898.github.io/post/review-2019-04/</link>
+      <link>/post/review-2019-04/</link>
       <pubDate>Wed, 01 May 2019 21:11:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-04/</guid>
+      <guid>/post/review-2019-04/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
 &lt;p&gt;很遗憾，这个月基本没怎么背单词，5 月份需要重新调整。&lt;/p&gt;
@@ -83,9 +83,9 @@
     </item>
     <item>
       <title>记录： 2019 年 3 月 - 状态不佳</title>
-      <link>https://yjm9898.github.io/post/review-2019-03/</link>
+      <link>/post/review-2019-03/</link>
       <pubDate>Wed, 03 Apr 2019 19:47:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-03/</guid>
+      <guid>/post/review-2019-03/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
 &lt;p&gt;背单词进度： 100% 。&lt;/p&gt;
@@ -93,19 +93,19 @@
     </item>
     <item>
       <title>记录： 2019 年 2 月 - 重振精神</title>
-      <link>https://yjm9898.github.io/post/review-2019-02/</link>
+      <link>/post/review-2019-02/</link>
       <pubDate>Sun, 03 Mar 2019 07:30:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-02/</guid>
+      <guid>/post/review-2019-02/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2019/02/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2019/02/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2019/02/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2019/02/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;与偶像勇哥的合影&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -113,9 +113,9 @@
     </item>
     <item>
       <title>记录： 2019 年 1 月 - 关于「每月记录」的思考</title>
-      <link>https://yjm9898.github.io/post/review-2019-01/</link>
+      <link>/post/review-2019-01/</link>
       <pubDate>Sun, 03 Feb 2019 07:36:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2019-01/</guid>
+      <guid>/post/review-2019-01/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 &lt;h2 id=&#34;博文&#34;&gt;博文&lt;/h2&gt;
 &lt;ul&gt;
@@ -131,19 +131,19 @@
     </item>
     <item>
       <title>记录： 2018 年 12 月 - 意外</title>
-      <link>https://yjm9898.github.io/post/review-2018-12/</link>
+      <link>/post/review-2018-12/</link>
       <pubDate>Mon, 31 Dec 2018 05:50:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2018-12/</guid>
+      <guid>/post/review-2018-12/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2018/1200.jpg&#34; alt=&#34;曲哥为我们带来了 2018 年最后的温暖&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2018/1200.jpg&#34; alt=&#34;曲哥为我们带来了 2018 年最后的温暖&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2018/1200.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2018/1200.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;曲哥为我们带来了 2018 年最后的温暖&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -152,19 +152,19 @@
     </item>
     <item>
       <title>记录： 2018 年 11 月 - 执行意图</title>
-      <link>https://yjm9898.github.io/post/review-2018-11/</link>
+      <link>/post/review-2018-11/</link>
       <pubDate>Fri, 30 Nov 2018 16:12:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2018-11/</guid>
+      <guid>/post/review-2018-11/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2018/1100.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2018/1100.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2018/1100.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2018/1100.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;卡卡一家&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -172,19 +172,19 @@
     </item>
     <item>
       <title>记录： 2018 年 10 月 - 音乐会</title>
-      <link>https://yjm9898.github.io/post/review-2018-10/</link>
+      <link>/post/review-2018-10/</link>
       <pubDate>Wed, 31 Oct 2018 15:15:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2018-10/</guid>
+      <guid>/post/review-2018-10/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;玉龙雪山&lt;/h4&gt;
           &lt;p&gt;我们旅舍二楼的风景&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -193,19 +193,19 @@
     </item>
     <item>
       <title>记录： 2018 年 9 月 - 专注两个身份</title>
-      <link>https://yjm9898.github.io/post/review-2018-09/</link>
+      <link>/post/review-2018-09/</link>
       <pubDate>Sun, 30 Sep 2018 14:40:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2018-09/</guid>
+      <guid>/post/review-2018-09/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2018/0908.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;那里中秋的月亮&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -213,9 +213,9 @@
     </item>
     <item>
       <title>记录： 2018 年 8 月 - 开始</title>
-      <link>https://yjm9898.github.io/post/review-2018-08/</link>
+      <link>/post/review-2018-08/</link>
       <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/review-2018-08/</guid>
+      <guid>/post/review-2018-08/</guid>
       <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;</description>
     </item>
   </channel>

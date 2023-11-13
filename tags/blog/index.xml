@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on 杰民的博客</title>
-    <link>https://yjm9898.github.io/tags/blog/</link>
+    <link>/tags/blog/</link>
     <description>Recent content in blog on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yjm9898.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客重启 2.0</title>
-      <link>https://yjm9898.github.io/post/2022/01-blog-restart/</link>
+      <link>/post/2022/01-blog-restart/</link>
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://yjm9898.github.io/post/2022/01-blog-restart/</guid>
+      <guid>/post/2022/01-blog-restart/</guid>
       <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
 &lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
 &lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>https://yjm9898.github.io/post/utterances-comment-system/</link>
+      <link>/post/utterances-comment-system/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/utterances-comment-system/</guid>
+      <guid>/post/utterances-comment-system/</guid>
       <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
     </item>
   </channel>

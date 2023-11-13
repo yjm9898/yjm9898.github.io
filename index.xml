@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杰民的博客</title>
-    <link>https://yjm9898.github.io/</link>
+    <link>/</link>
     <description>Recent content on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://yjm9898.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>重读《影响力》</title>
-      <link>https://yjm9898.github.io/post/2023/00-read-influence/</link>
+      <link>/post/2023/00-read-influence/</link>
       <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2023/00-read-influence/</guid>
+      <guid>/post/2023/00-read-influence/</guid>
       
         <description>&lt;p&gt;几个影响力武器：互惠、承诺与一致、社会认同、喜好、权威、稀缺。&lt;/p&gt;
 &lt;p&gt;以下随便谈谈个人的一些启发。&lt;/p&gt;
@@ -52,19 +52,19 @@
     
     <item>
       <title>别了， 2022！</title>
-      <link>https://yjm9898.github.io/post/2022/goodbye-2022/</link>
+      <link>/post/2022/goodbye-2022/</link>
       <pubDate>Mon, 02 Jan 2023 16:01:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/goodbye-2022/</guid>
+      <guid>/post/2022/goodbye-2022/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2022/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2022/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2022/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2022/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;2023 新年登高&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -177,10 +177,10 @@
     
     <item>
       <title>浅谈一种搜索思路——找到专业网站</title>
-      <link>https://yjm9898.github.io/post/2022/10-search-and-find-professional-websites/</link>
+      <link>/post/2022/10-search-and-find-professional-websites/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/10-search-and-find-professional-websites/</guid>
+      <guid>/post/2022/10-search-and-find-professional-websites/</guid>
       
         <description>&lt;p&gt;关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
 本文分享一个搜索的 &lt;strong&gt;思路&lt;/strong&gt; ，这跟工具的使用技巧上有点差别。&lt;/p&gt;
@@ -203,10 +203,10 @@
     
     <item>
       <title>兼职领队 - 香格里拉无底湖露营徒步</title>
-      <link>https://yjm9898.github.io/post/2022/09-part-time-outdoor-tour-leader/</link>
+      <link>/post/2022/09-part-time-outdoor-tour-leader/</link>
       <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/09-part-time-outdoor-tour-leader/</guid>
+      <guid>/post/2022/09-part-time-outdoor-tour-leader/</guid>
       
         <description>&lt;p&gt;十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong&gt;是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong&gt; 。&lt;/p&gt;
 &lt;p&gt;尽管全国各地的疫情此起彼伏，好在丽江及丽江周边没受太大影响，无非是出行要提供 24 小时核酸，因此国庆长假还是有不少游客前来的。该户外俱乐部营销做的不错，报名参团的人数不少，比如我这次兼职的路线，团员就有 29 人（原本是 36 人，因为疫情原因有 7 人退团）。因为参团人数多，也就有了像我这样的兼职领队，辅佐主领队的工作，最主要的职责就是保障队员安全、避免走散。&lt;/p&gt;
@@ -215,14 +215,14 @@
 &lt;p&gt;要说这次活动有什么遗憾，就是参团的人数有点儿多了（不过要不是这么多人，也不会请到我）。人多了以后，就没办法每个人都照顾到，大家很难有近距离的沟通，很难交朋友，活动结束就散伙。这与我过去的经验相比，还是有明显的区别。过去我带队都是 8 人以下的小团队，一次户外活动下来，从陌生到相识，是结交朋友很好的方式。人多的话，就成了纯粹的工作了，要把服务做好。&lt;/p&gt;
 &lt;p&gt;活动结束后，顺利返回丽江，结束了这次短期兼职。我感觉 &lt;strong&gt;偶尔做一做兼职领队还是挺不错的&lt;/strong&gt; ，可以向专业人员学习，自己也能走一走路线，同时还能挣点小钱。让我想想下一次兼职做点什么，也许可以去做厨子吧，哈哈！&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2022/10-07.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2022/10-07.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2022/10-07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2022/10-07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;</description>
       
@@ -230,21 +230,21 @@
     
     <item>
       <title>我的英语词汇量（ 2022 年 8 月 ）</title>
-      <link>https://yjm9898.github.io/post/2022/08-review-english-2022-08/</link>
+      <link>/post/2022/08-review-english-2022-08/</link>
       <pubDate>Mon, 29 Aug 2022 22:15:10 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/08-review-english-2022-08/</guid>
+      <guid>/post/2022/08-review-english-2022-08/</guid>
       
         <description>&lt;p&gt;上一次测试词汇量是在 &lt;a href=&#34;https://www.xianmin.org/post/review-english-202005/&#34;&gt;2020 年 5 月&lt;/a&gt; ，当时的词汇量大约是 7420 。今天突然想起来好久没测了，随手测了一下，这次测出的词汇量大约是 7810 ，跟两年前相比基本没有太大的变化。这是符合预期的，这两年我就没有在英语上下过工夫，没有退步就不错了。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/other/review-english-2022-08-28.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/other/review-english-2022-08-28.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/other/review-english-2022-08-28.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/other/review-english-2022-08-28.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;2022 年 8 月，词汇量测试&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -258,10 +258,10 @@
     
     <item>
       <title>熟悉一套快捷键，提升文本编辑效率</title>
-      <link>https://yjm9898.github.io/post/2022/07-familiar-one-keybinding-style/</link>
+      <link>/post/2022/07-familiar-one-keybinding-style/</link>
       <pubDate>Mon, 29 Aug 2022 22:10:10 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/07-familiar-one-keybinding-style/</guid>
+      <guid>/post/2022/07-familiar-one-keybinding-style/</guid>
       
         <description>&lt;p&gt;今年由于工作需要，我将自己的常用操作系统从 Linux 换成了 Win10 。切换到 Win10 后，原本的 Emacs 配置无法正常工作了，我也懒的继续折腾配置，本来用 Emacs 也就是记笔记、写日记之类的文本编辑工作，写代码基本都是用 VSCode 。现在 VSCode 已经非常好用了，干脆把所有编辑文本的工作都交给 VSCode 吧。&lt;/p&gt;
 &lt;p&gt;使用 Emacs 让我受益最大的，就是它的快捷键操作方式。比如 &lt;code&gt;Ctrl-a&lt;/code&gt; 将光标移到行首， &lt;code&gt;Ctrl-e&lt;/code&gt; 移到行尾等等，就不一一列举了。我也曾用过 Vim ，但是它的操作方式我怎么都不适应（用 Vimium 浏览网页还是挺舒服的），因为它编辑的时候要进入「Insert-mode」，然后还要解决切换输入法的问题，在中文输入的情况下无法进入「Insert-mode」。而使用 Emacs 大部分时候没有切换输入法的烦恼，它的快捷键都需要加上 &lt;code&gt;Ctrl&lt;/code&gt; 或 &lt;code&gt;Alt&lt;/code&gt; 前缀。&lt;/p&gt;
@@ -273,10 +273,10 @@
     
     <item>
       <title>我的 VSCode 快捷键</title>
-      <link>https://yjm9898.github.io/post/2022/06-my-vscode-keybinding/</link>
+      <link>/post/2022/06-my-vscode-keybinding/</link>
       <pubDate>Mon, 29 Aug 2022 22:06:10 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/06-my-vscode-keybinding/</guid>
+      <guid>/post/2022/06-my-vscode-keybinding/</guid>
       
         <description>&lt;h2 id=&#34;移动相关&#34;&gt;移动相关&lt;/h2&gt;
 &lt;table&gt;
@@ -657,10 +657,10 @@
     
     <item>
       <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
-      <link>https://yjm9898.github.io/post/2022/05-debug-css-x-overflow/</link>
+      <link>/post/2022/05-debug-css-x-overflow/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/05-debug-css-x-overflow/</guid>
+      <guid>/post/2022/05-debug-css-x-overflow/</guid>
       
         <description>&lt;p&gt;一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://qa.mathcrowd.cn/challenges&#34;&gt;趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a&gt; 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p&gt;
@@ -670,14 +670,14 @@
 &lt;li&gt;&lt;a href=&#34;https://opencollective.com/&#34;&gt;Raise and spend money with full transparency. - Open Collective&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/other/zhihu-overflow.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/other/zhihu-overflow.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/other/zhihu-overflow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/other/zhihu-overflow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;知乎专栏网页溢出&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -718,10 +718,10 @@
     
     <item>
       <title>重学系鞋带</title>
-      <link>https://yjm9898.github.io/post/2022/04-relearn-to-tie-your-laces/</link>
+      <link>/post/2022/04-relearn-to-tie-your-laces/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/04-relearn-to-tie-your-laces/</guid>
+      <guid>/post/2022/04-relearn-to-tie-your-laces/</guid>
       
         <description>&lt;p&gt;有段时间我上山徒步比较频繁，当时有一件小事让我印象深刻：&lt;/p&gt;
 &lt;p&gt;似乎每一次上山的途中，我的鞋带都会至少散开一次。鞋带散了，重新系上就是了，无非弯下腰花费十几秒钟的功夫而已。一开始，我没有把它当回事儿，毕竟平时走路鞋带很少散开，也就在登山的时候，散开的概率大一些。后来，次数多了，我才意识到这似乎是个问题。可是在山上，我不太可能当场去找解决办法，想着下山回家后，上网搜一搜怎样系鞋带不会散，可是下山后，我就把这件事儿给忘了。&lt;/p&gt;
@@ -733,19 +733,19 @@
     
     <item>
       <title>2022 年中小记：远程工作四个月</title>
-      <link>https://yjm9898.github.io/post/2022/03-join-mathcrowd/</link>
+      <link>/post/2022/03-join-mathcrowd/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/03-join-mathcrowd/</guid>
+      <guid>/post/2022/03-join-mathcrowd/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2022/07-03.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2022/07-03.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2022/07-03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2022/07-03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -777,9 +777,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;橘子题库小程序码&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -793,9 +793,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;跨维组合牌小程序码&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -808,10 +808,10 @@
     
     <item>
       <title>懒人做饭食谱（一）——万能凉拌菜</title>
-      <link>https://yjm9898.github.io/post/2022/02-kitchen-salad/</link>
+      <link>/post/2022/02-kitchen-salad/</link>
       <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/02-kitchen-salad/</guid>
+      <guid>/post/2022/02-kitchen-salad/</guid>
       
         <description>&lt;p&gt;这道菜的重点有两个：一是要清楚哪些菜可以直接生吃，哪些菜需要焯一道水，焯水就是把菜煮熟，或者给一些菜消毒杀菌。二是调成什么样的味道，最简单的就是直接倒生抽，或者在淘宝上买现成小包装的调料包。&lt;/p&gt;
 &lt;p&gt;这道菜的方便之处在于，不需要炒。把所有菜洗净处理好后，全部放入一个盆里，加入调味料，搅拌，就可以吃了。&lt;/p&gt;
@@ -823,14 +823,14 @@
 &lt;li&gt;可以每次尝试放入不同的调味料，西式的也可以，比如沙拉酱；&lt;/li&gt;
 &lt;/ol&gt;
 
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
   &lt;div class=&#34;box&#34;&gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34;
     itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
       &lt;div class=&#34;img&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2022/06-12.jpg&#34; /&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2022/06-12.jpg&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://yjm9898.github.io/image/memory/2022/06-12.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;/image/memory/2022/06-12.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;&lt;h4&gt;万能凉拌菜&lt;/h4&gt;
         &lt;/figcaption&gt;
     &lt;/figure&gt;
@@ -842,10 +842,10 @@
     
     <item>
       <title>博客重启 2.0</title>
-      <link>https://yjm9898.github.io/post/2022/01-blog-restart/</link>
+      <link>/post/2022/01-blog-restart/</link>
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/01-blog-restart/</guid>
+      <guid>/post/2022/01-blog-restart/</guid>
       
         <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
 &lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
@@ -867,10 +867,10 @@
     
     <item>
       <title>致谢</title>
-      <link>https://yjm9898.github.io/acknowledgments/</link>
+      <link>/acknowledgments/</link>
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/acknowledgments/</guid>
+      <guid>/acknowledgments/</guid>
       
         <description>&lt;table&gt;
 &lt;thead&gt;
@@ -925,10 +925,10 @@
     
     <item>
       <title>Windows 下，交换 Ctrl 键和 CapsLock 键</title>
-      <link>https://yjm9898.github.io/post/2022/00-windows-swap-ctrl-and-capslock/</link>
+      <link>/post/2022/00-windows-swap-ctrl-and-capslock/</link>
       <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2022/00-windows-swap-ctrl-and-capslock/</guid>
+      <guid>/post/2022/00-windows-swap-ctrl-and-capslock/</guid>
       
         <description>&lt;p&gt;好久没更新博客了，水一篇，找点状态。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code&gt;CapsLock&lt;/code&gt; 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p&gt;
@@ -948,19 +948,19 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>别了，2021！</title>
-      <link>https://yjm9898.github.io/post/goodbye-2021/</link>
+      <link>/post/goodbye-2021/</link>
       <pubDate>Mon, 24 Jan 2022 06:21:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/goodbye-2021/</guid>
+      <guid>/post/goodbye-2021/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -984,9 +984,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/01.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/01.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -996,9 +996,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/02.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/02.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1008,9 +1008,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/03.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/03.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1020,9 +1020,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/04.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/04.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1044,9 +1044,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/05.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/05.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1056,9 +1056,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/06.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/06.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1068,9 +1068,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/07.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/07.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1080,9 +1080,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/08.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/08.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1104,9 +1104,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/09.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/09.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1116,9 +1116,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/10.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/10.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/10.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/10.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1128,9 +1128,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2021/11.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2021/11.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2021/11.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2021/11.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;</description>
@@ -1139,10 +1139,10 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>Github action 自动部署博客测试</title>
-      <link>https://yjm9898.github.io/post/2021/00-github-action-test/</link>
+      <link>/post/2021/00-github-action-test/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yjm9898.github.io/post/2021/00-github-action-test/</guid>
+      <guid>/post/2021/00-github-action-test/</guid>
       
         <description>&lt;p&gt;本篇博文用于测试 GitHub action 。&lt;/p&gt;
 &lt;p&gt;使用 &lt;a href=&#34;https://github.com/peaceiris/actions-hugo&#34;&gt;https://github.com/peaceiris/actions-hugo&lt;/a&gt; 。&lt;/p&gt;
@@ -1154,19 +1154,19 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>别了， 2020！</title>
-      <link>https://yjm9898.github.io/post/goodbye-2020/</link>
+      <link>/post/goodbye-2020/</link>
       <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/goodbye-2020/</guid>
+      <guid>/post/goodbye-2020/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/other/me.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/other/me.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1199,10 +1199,10 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>我的 2020 年阅读总结</title>
-      <link>https://yjm9898.github.io/post/review-read-2020/</link>
+      <link>/post/review-read-2020/</link>
       <pubDate>Mon, 01 Feb 2021 15:54:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/review-read-2020/</guid>
+      <guid>/post/review-read-2020/</guid>
       
         <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;
@@ -1296,10 +1296,10 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>请重视你的牙！！！</title>
-      <link>https://yjm9898.github.io/post/202012-attention-teeth/</link>
+      <link>/post/202012-attention-teeth/</link>
       <pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/202012-attention-teeth/</guid>
+      <guid>/post/202012-attention-teeth/</guid>
       
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
@@ -1314,21 +1314,21 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
     
     <item>
       <title>重返江南</title>
-      <link>https://yjm9898.github.io/post/review-2020-return-jiangnan/</link>
+      <link>/post/review-2020-return-jiangnan/</link>
       <pubDate>Thu, 15 Oct 2020 11:11:00 +0800</pubDate>
       
-      <guid>https://yjm9898.github.io/post/review-2020-return-jiangnan/</guid>
+      <guid>/post/review-2020-return-jiangnan/</guid>
       
         <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;我和我弟&lt;/h4&gt;
           &lt;p&gt;摄于良渚遗址 - 2020 年 6 月&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -1349,9 +1349,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2020/06/01.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/01.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2020/06/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2020/06/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;西湖边&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1369,9 +1369,9 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/memory/2020/06/02.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/memory/2020/06/02.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/memory/2020/06/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/memory/2020/06/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;钱塘江边的日落&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;

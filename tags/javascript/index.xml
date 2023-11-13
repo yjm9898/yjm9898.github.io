@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on 杰民的博客</title>
-    <link>https://yjm9898.github.io/tags/javascript/</link>
+    <link>/tags/javascript/</link>
     <description>Recent content in JavaScript on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Nov 2017 14:39:00 +0800</lastBuildDate>
-    <atom:link href="https://yjm9898.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript —— this 绑定</title>
-      <link>https://yjm9898.github.io/post/javascript-this/</link>
+      <link>/post/javascript-this/</link>
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/javascript-this/</guid>
+      <guid>/post/javascript-this/</guid>
       <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;

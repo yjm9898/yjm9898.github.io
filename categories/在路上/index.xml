@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>在路上 on 杰民的博客</title>
-    <link>https://yjm9898.github.io/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</link>
+    <link>/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</link>
     <description>Recent content in 在路上 on 杰民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 07 Oct 2022 22:15:10 +0800</lastBuildDate>
-    <atom:link href="https://yjm9898.github.io/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>兼职领队 - 香格里拉无底湖露营徒步</title>
-      <link>https://yjm9898.github.io/post/2022/09-part-time-outdoor-tour-leader/</link>
+      <link>/post/2022/09-part-time-outdoor-tour-leader/</link>
       <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/2022/09-part-time-outdoor-tour-leader/</guid>
+      <guid>/post/2022/09-part-time-outdoor-tour-leader/</guid>
       <description>&lt;p&gt;十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong&gt;是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong&gt; 。&lt;/p&gt;</description>
     </item>
     <item>
       <title>登顶文笔峰</title>
-      <link>https://yjm9898.github.io/post/201905-hiking/</link>
+      <link>/post/201905-hiking/</link>
       <pubDate>Fri, 31 May 2019 23:18:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/201905-hiking/</guid>
+      <guid>/post/201905-hiking/</guid>
       <description>&lt;p&gt;25 日，天气正好，不算热，也没那么阴沉。这天，约了俩好友一起去徒步。从文峰寺开始，登顶文笔峰。这条线路很早就有想法了，但一直没有行动，没行动无非就是懒……而促成行动最好的方式就是，约上好友一起。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从泸沽湖到宝山石头城</title>
-      <link>https://yjm9898.github.io/post/2018-lugu-lake/</link>
+      <link>/post/2018-lugu-lake/</link>
       <pubDate>Fri, 30 Nov 2018 15:20:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/2018-lugu-lake/</guid>
+      <guid>/post/2018-lugu-lake/</guid>
       <description>&lt;p&gt;在丽江待了这么多年，却一直没有去过泸沽湖。原因嘛，无非是我不喜欢去景点，尤其是大家都去的景点。我的偏好是，要么在路上，要么就在一个地方待着，逛景点也就是看看风景，有时候路上的风景或许比景点更美呢。&lt;/p&gt;
 &lt;p&gt;不过这个月月底，终于还是去了一趟泸沽湖，顺带还去了宝山石头城。这次比较特殊的是和几个熟悉的朋友一同出行，实在难得，一块儿吃喝玩乐，聊聊生活，增进一下友谊。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/lugu-lake/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/lugu-lake/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/lugu-lake/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/lugu-lake/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;泸沽湖边飞翔的鸟儿&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -45,17 +45,17 @@
     </item>
     <item>
       <title>月底去了一趟沙溪古镇</title>
-      <link>https://yjm9898.github.io/post/shaxi-oldtown-5/</link>
+      <link>/post/shaxi-oldtown-5/</link>
       <pubDate>Fri, 31 Aug 2018 19:00:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/shaxi-oldtown-5/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/shaxi-oldtown-5/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/shaxi-oldtown/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;沙溪古戏台 2018 年 8 月&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -65,17 +65,17 @@
     </item>
     <item>
       <title>怒江行记（六）——终点丙中洛</title>
-      <link>https://yjm9898.github.io/post/nujiang-05/</link>
+      <link>/post/nujiang-05/</link>
       <pubDate>Sat, 12 May 2018 09:58:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-05/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-05/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/05/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/05/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;三座桥&lt;/h4&gt;
           &lt;p&gt;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -86,17 +86,17 @@
     </item>
     <item>
       <title>怒江行记（五）——探秘独龙江</title>
-      <link>https://yjm9898.github.io/post/nujiang-04/</link>
+      <link>/post/nujiang-04/</link>
       <pubDate>Wed, 09 May 2018 15:25:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-04/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-04/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/04/00.jpeg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/04/00.jpeg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/04/00.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/04/00.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -104,17 +104,17 @@
     </item>
     <item>
       <title>怒江行记（四）——原始森林亚坪</title>
-      <link>https://yjm9898.github.io/post/nujiang-03/</link>
+      <link>/post/nujiang-03/</link>
       <pubDate>Sun, 06 May 2018 11:11:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-03/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-03/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;走进原始森林&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -125,17 +125,17 @@
     </item>
     <item>
       <title>怒江行记（三）——废城知子罗</title>
-      <link>https://yjm9898.github.io/post/nujiang-02/</link>
+      <link>/post/nujiang-02/</link>
       <pubDate>Thu, 03 May 2018 11:28:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-02/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-02/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/02/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/02/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/02/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/02/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -143,17 +143,17 @@
     </item>
     <item>
       <title>怒江行记（二）——第一次走出国门</title>
-      <link>https://yjm9898.github.io/post/nujiang-01/</link>
+      <link>/post/nujiang-01/</link>
       <pubDate>Fri, 27 Apr 2018 21:52:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-01/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-01/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/01/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/01/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/01/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/01/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;驶入怒江州&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -163,17 +163,17 @@
     </item>
     <item>
       <title>怒江行记（一）——写在前面</title>
-      <link>https://yjm9898.github.io/post/nujiang-00/</link>
+      <link>/post/nujiang-00/</link>
       <pubDate>Fri, 27 Apr 2018 20:30:00 +0800</pubDate>
-      <guid>https://yjm9898.github.io/post/nujiang-00/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yjm9898.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>/post/nujiang-00/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://yjm9898.github.io/image/nujiang/00/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/image/nujiang/00/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://yjm9898.github.io/image/nujiang/00/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/image/nujiang/00/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;怒江的壮丽山河&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
