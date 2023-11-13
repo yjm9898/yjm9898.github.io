@@ -7,9 +7,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>
-          First Blog - 杰民的博客
-        </title>
+    <title>归档 - 杰民的博客</title>
     
 
 <meta name="renderer" content="webkit" />
@@ -29,8 +27,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="杰民" />
-  <meta name="description" content="前言 最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到" />
-
+  <meta name="description" content="这里是我写字的地方" />
   <meta name="keywords" content="linux, emacs, program, journal, 杰民, 博客, 笔记" />
 
 
@@ -41,8 +38,8 @@
 <meta name="generator" content="Hugo 0.120.4" />
 
 
-<link rel="canonical" href="/posts/install-hugo-as-my-blog-site/" />
-
+<link rel="canonical" href="/post/" />
+<link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="杰民的博客" />
 
 
 
@@ -69,20 +66,15 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-<meta property="og:title" content="First Blog" />
-<meta property="og:description" content="前言 最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/install-hugo-as-my-blog-site/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-11-07T17:32:19+08:00" />
-<meta property="article:modified_time" content="2023-11-13T16:14:18+08:00" />
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="这里是我写字的地方" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/post/" />
 
-<meta itemprop="name" content="First Blog">
-<meta itemprop="description" content="前言 最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到"><meta itemprop="datePublished" content="2023-11-07T17:32:19+08:00" />
-<meta itemprop="dateModified" content="2023-11-13T16:14:18+08:00" />
-<meta itemprop="wordCount" content="231">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First Blog"/>
-<meta name="twitter:description" content="前言 最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到"/>
+<meta itemprop="name" content="Posts">
+<meta itemprop="description" content="这里是我写字的地方"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content="这里是我写字的地方"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -134,7 +126,7 @@ if (!doNotTrack) {
         
           
           
-            <a class="menu-item-link" href="/">全部文章</a>
+            <a class="menu-item-link" href="/post/">全部文章</a>
           
         
       </li><li class="mobile-menu-item">
@@ -269,11 +261,11 @@ if (!doNotTrack) {
 
       </li>
     
-        <li class="menu-item">
+        <li class="menu-item active">
         
           
           
-            <a class="menu-item-link" href="/">全部文章</a>
+            <a class="menu-item-link" href="/post/">全部文章</a>
           
 
         
@@ -347,271 +339,78 @@ if (!doNotTrack) {
 
     <div id="mobile-panel">
       <main id="main" class="main bg-llight wallpaper">
-        <div class="content-wrapper">
-    <div id="content" class="content">
-      <article class="post">
         
-        <header class="post-header">
-          <h1 class="post-title">First Blog</h1>
-          
-
-          <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about">
-        <span class="post-meta-author-name">
-          杰民
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-11-07">
-      2023-11-07
-    </time>
-  </div>
-
-  
-    <div class="post-meta-lastmod">
-      (上次更新:
-      2023-11-13)
+<section id="archive" class="archive">
+    <div class="archive-title">
+      <span class="archive-post-counter">
+          共计 3 篇文章
+      </span>
     </div>
-  
-
-
-  <div class="post-meta__right">
     
+      <div class="collection-title">
+        <h2 class="archive-year">2023</h2>
+      </div>
 
-    
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-        </header>
-
-        
-        <div class="post-content">
-          <p>前言</p>
-<p>最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到一位博主的<a href="https://soulteary.com/">博客</a>，很受震撼，慢慢积累吧。在自己的服务器上来部署一个博客。</p>
-<h2 id="安装scoop">安装scoop</h2>
-<p>步骤一：打开powershell 执行策略更改：</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#007020">Set-ExecutionPolicy</span> -ExecutionPolicy RemoteSigned -Scope CurrentUser
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>步骤二： 安装scoop</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#007020">irm </span>get.scoop.sh | <span style="color:#007020">iex
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="hugo安装">Hugo安装</h2>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>scoop install hugo
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="站点新建">站点新建</h2>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo new site ./ -f yml
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="添加主题">添加主题</h2>
-<pre tabindex="0"><code>git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
-</code></pre><h2 id="新建日志">新建日志</h2>
-<pre tabindex="0"><code>hugo new posts/first-blog.md
-</code></pre><p>当文档编写完成，修改头部draft字段为false.</p>
-<h2 id="启动-hugo服务">启动 hugo服务</h2>
-<p>hugo server -D</p>
-
-        </div>
-
-        
-        
-<div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">文章作者</span>
-    <span class="item-content">杰民</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">上次更新</span>
-    <span class="item-content">
-      2023-11-13
-      
-        <a href="https://github.com/yjm9898/yjm9898.github.io/commit/2b29cb297c2478b61f7d002822b5740d701f7f67" title="删除旧历史">
-          (2b29cb2)
+    <div class="archive-post">
+      <time datetime="2023-11-08" class="archive-post-time">
+        2023-11-08
+      </time>
+      <span class="archive-post-title">
+        <a href="/post/2023/11/08/linux-shell-notebook/" class="archive-post-link">
+          Linux Shell Notebook
         </a>
-        
-          <br>删除旧历史
-        
-      
-    </span>
-  </p>
-  
-  <p class="copyright-item">
-    <span class="item-title">许可协议</span>
-    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
-  </p>
-</div>
-
-
-
-        
-        
-<div class="post-reward">
-  <input type="checkbox" name="reward" id="reward" hidden />
-  <label class="reward-button" for="reward">赞赏支持</label>
-  <div class="qr-code">
-    
-    
-    
-  </div>
-</div>
-
-
-        <footer class="post-footer">
-          
-
-
-          
-          <nav class="post-nav">
-            
-              <a class="prev" href="/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/">
-                
-                <i class="iconfont">
-                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-                </i>
-                <span class="prev-text nav-default">Spring Starter Nexus Repository Skill Stack</span>
-                <span class="prev-text nav-mobile">上一篇</span>
-              </a>
-            
-          </nav>
-        </footer>
-      </article>
-
-      
-      
-
-
-      
-      
-
-  
-
-  
-  
-    <div class="post">
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="yjm9898/yjm9898.github.io"
-    data-repo-id="R_kgDOKsr5qw"
-    data-category="Announcements"
-    data-category-id="DIC_kwDOKsr5q84Ca575"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="light"
-    data-lang="zh-CN"
-    
-    crossorigin="anonymous"
-    async
-  ></script>
-</div>
-
-  
-
-  
-  
-
-  
-
-  <div class="disqus-comment">
-  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
-    显示 Disqus 评论
-  </div>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_config = function () {
-      this.page.url = "/posts/install-hugo-as-my-blog-site/";
-    };
-    function load_disqus() {
-      
-      
-      if (window.location.hostname === 'localhost') return;
-
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      var disqus_shortname = 'jiemin';
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-
-      $('#load_disqus').remove();
-    };
-  </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
-  
-</div>
-
-
-    
-
-  
-
-  
-
-
+      </span>
     </div>
-
     
-    <nav class="toc" id="toc">
-    <div class="toc-title">文章目录</div>
-    <div class="toc-content custom-scrollbar">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装scoop">安装scoop</a></li>
-    <li><a href="#hugo安装">Hugo安装</a></li>
-    <li><a href="#站点新建">站点新建</a></li>
-    <li><a href="#添加主题">添加主题</a></li>
-    <li><a href="#新建日志">新建日志</a></li>
-    <li><a href="#启动-hugo服务">启动 hugo服务</a></li>
-  </ul>
-</nav>
+
+    <div class="archive-post">
+      <time datetime="2023-11-08" class="archive-post-time">
+        2023-11-08
+      </time>
+      <span class="archive-post-title">
+        <a href="/post/2023/11/08/spring-starter-nexus-repository-skill-stack/" class="archive-post-link">
+          Spring Starter Nexus Repository Skill Stack
+        </a>
+      </span>
     </div>
-  </nav>
+    
+
+    <div class="archive-post">
+      <time datetime="2023-11-07" class="archive-post-time">
+        2023-11-07
+      </time>
+      <span class="archive-post-title">
+        <a href="/post/install-hugo-as-my-blog-site/" class="archive-post-link">
+          First Blog
+        </a>
+      </span>
+    </div></section>
 
 
-  </div>
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+
+
 
       </main>
 

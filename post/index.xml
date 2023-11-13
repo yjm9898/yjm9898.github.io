@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 杰民的博客</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 杰民的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Nov 2023 15:22:26 +0800</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Shell Notebook</title>
+      <link>/post/2023/11/08/linux-shell-notebook/</link>
+      <pubDate>Wed, 08 Nov 2023 15:22:26 +0800</pubDate>
+      <guid>/post/2023/11/08/linux-shell-notebook/</guid>
+      <description>工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &amp;#39;Exited=0&amp;#39; |awk &amp;#39;NR != 1 {print $1}&amp;#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的</description>
+    </item>
+    <item>
+      <title>Spring Starter Nexus Repository Skill Stack</title>
+      <link>/post/2023/11/08/spring-starter-nexus-repository-skill-stack/</link>
+      <pubDate>Wed, 08 Nov 2023 10:08:55 +0800</pubDate>
+      <guid>/post/2023/11/08/spring-starter-nexus-repository-skill-stack/</guid>
+      <description>spring-boot starter封装编写和仓库存储 starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解</description>
+    </item>
+    <item>
+      <title>First Blog</title>
+      <link>/post/install-hugo-as-my-blog-site/</link>
+      <pubDate>Tue, 07 Nov 2023 17:32:19 +0800</pubDate>
+      <guid>/post/install-hugo-as-my-blog-site/</guid>
+      <description>前言 最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到</description>
+    </item>
+  </channel>
+</rss>

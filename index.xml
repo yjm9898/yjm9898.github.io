@@ -13,10 +13,10 @@
     
     <item>
       <title>Linux Shell Notebook</title>
-      <link>/posts/2023/11/08/linux-shell-notebook/</link>
+      <link>/post/2023/11/08/linux-shell-notebook/</link>
       <pubDate>Wed, 08 Nov 2023 15:22:26 +0800</pubDate>
       
-      <guid>/posts/2023/11/08/linux-shell-notebook/</guid>
+      <guid>/post/2023/11/08/linux-shell-notebook/</guid>
       
         <description>&lt;h1 id=&#34;工作中常用linux-脚本命令&#34;&gt;工作中常用linux 脚本命令&lt;/h1&gt;
 &lt;p&gt;比如在服务器上，需要批量删除服务器上停用掉的容器。&lt;/p&gt;
@@ -37,10 +37,10 @@ xargs 用上一个管道的输出作为当前命令的参数&lt;/p&gt;
     
     <item>
       <title>Spring Starter Nexus Repository Skill Stack</title>
-      <link>/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/</link>
+      <link>/post/2023/11/08/spring-starter-nexus-repository-skill-stack/</link>
       <pubDate>Wed, 08 Nov 2023 10:08:55 +0800</pubDate>
       
-      <guid>/posts/2023/11/08/spring-starter-nexus-repository-skill-stack/</guid>
+      <guid>/post/2023/11/08/spring-starter-nexus-repository-skill-stack/</guid>
       
         <description>&lt;h1 id=&#34;spring-boot-starter封装编写和仓库存储&#34;&gt;spring-boot starter封装编写和仓库存储&lt;/h1&gt;
 &lt;p&gt;starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解boot原理，更好的复用代码.&lt;/p&gt;
@@ -51,10 +51,10 @@ xargs 用上一个管道的输出作为当前命令的参数&lt;/p&gt;
     
     <item>
       <title>First Blog</title>
-      <link>/posts/install-hugo-as-my-blog-site/</link>
+      <link>/post/install-hugo-as-my-blog-site/</link>
       <pubDate>Tue, 07 Nov 2023 17:32:19 +0800</pubDate>
       
-      <guid>/posts/install-hugo-as-my-blog-site/</guid>
+      <guid>/post/install-hugo-as-my-blog-site/</guid>
       
         <description>&lt;p&gt;前言&lt;/p&gt;
 &lt;p&gt;最近急需要一个博客系统，通过资料调研。从之前博客园到wordpress再到之前的githubIO形式，都没能好好的坚持使用下来。最近看到一位博主的&lt;a href=&#34;https://soulteary.com/&#34;&gt;博客&lt;/a&gt;，很受震撼，慢慢积累吧。在自己的服务器上来部署一个博客。&lt;/p&gt;
