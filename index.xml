@@ -45,6 +45,12 @@ xargs 用上一个管道的输出作为当前命令的参数&lt;/p&gt;
         <description>&lt;h1 id=&#34;spring-boot-starter封装编写和仓库存储&#34;&gt;spring-boot starter封装编写和仓库存储&lt;/h1&gt;
 &lt;p&gt;starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解boot原理，更好的复用代码.&lt;/p&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;spring几大特性理解：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IOC和DI支持&lt;/li&gt;
+&lt;li&gt;AOP切面编程支持&lt;/li&gt;
+&lt;li&gt;声明式事务支持&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
