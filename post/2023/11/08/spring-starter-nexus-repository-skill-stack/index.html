@@ -74,12 +74,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2023/11/08/spring-starter-nexus-repository-skill-stack/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-11-08T10:08:55+08:00" />
-<meta property="article:modified_time" content="2023-11-14T18:17:20+08:00" />
+<meta property="article:modified_time" content="2023-11-15T16:08:29+08:00" />
 
 <meta itemprop="name" content="Spring Starter Nexus Repository Skill Stack">
 <meta itemprop="description" content="spring-boot starter封装编写和仓库存储 starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解"><meta itemprop="datePublished" content="2023-11-08T10:08:55+08:00" />
-<meta itemprop="dateModified" content="2023-11-14T18:17:20+08:00" />
-<meta itemprop="wordCount" content="126">
+<meta itemprop="dateModified" content="2023-11-15T16:08:29+08:00" />
+<meta itemprop="wordCount" content="281">
 <meta itemprop="keywords" content="linux,shell," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Spring Starter Nexus Repository Skill Stack"/>
 <meta name="twitter:description" content="spring-boot starter封装编写和仓库存储 starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解"/>
@@ -375,7 +375,7 @@ if (!doNotTrack) {
   
     <div class="post-meta-lastmod">
       (上次更新:
-      2023-11-14)
+      2023-11-15)
     </div>
   
 
@@ -411,6 +411,34 @@ if (!doNotTrack) {
 <li>AOP切面编程支持</li>
 <li>声明式事务支持</li>
 </ul>
+<h2 id="阅读spring源码">阅读spring源码</h2>
+<blockquote>
+<p>Spring 框架是模块化的，每一个模块都可以在应用中独立应用。包括 Core Container, Data Access, Web, AOP, Instumentation And Test。</p>
+</blockquote>
+<p>以下分两部分来阅读Spring</p>
+<h3 id="第一部分-core-container">第一部分： Core Container</h3>
+<p>核心容器包括 Beans、Core、Context以及EL模块. Core和Beans包含DI和IOC特性。</p>
+<h3 id="第二部分-the-framework">第二部分： The FrameWork</h3>
+<ol>
+<li>
+<p>Data Access/Integrations</p>
+</li>
+<li>
+<p>Aspect Oriented Programming (AOP)</p>
+</li>
+<li>
+<p>Spring’s MVC</p>
+</li>
+<li>
+<p>Spring Test</p>
+</li>
+<li>
+<p>Object XML Mapping</p>
+</li>
+<li>
+<p>Dependency Injection (DI)</p>
+</li>
+</ol>
 
         </div>
 
@@ -424,13 +452,13 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2023-11-14
+      2023-11-15
       
-        <a href="https://github.com/yjm9898/yjm9898.github.io/commit/2b0e9db96d19620224a361c6561b9abefa442aa3" title="添加spring几大特性；包含了集中设计模式">
-          (2b0e9db)
+        <a href="https://github.com/yjm9898/yjm9898.github.io/commit/1edb0debec2572d89adb1de21bf30b4562bccfa1" title="如何学习一个技能">
+          (1edb0de)
         </a>
         
-          <br>添加spring几大特性；包含了集中设计模式
+          <br>如何学习一个技能
         
       
     </span>
@@ -583,6 +611,12 @@ if (!doNotTrack) {
       <nav id="TableOfContents">
   <ul>
     <li><a href="#写在前面">写在前面</a></li>
+    <li><a href="#阅读spring源码">阅读spring源码</a>
+      <ul>
+        <li><a href="#第一部分-core-container">第一部分： Core Container</a></li>
+        <li><a href="#第二部分-the-framework">第二部分： The FrameWork</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
