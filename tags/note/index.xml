@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>note on 杰民的博客</title>
+    <link>/tags/note/</link>
+    <description>Recent content in note on 杰民的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 13 Nov 2023 17:24:56 +0800</lastBuildDate>
+    <atom:link href="/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About How to Deep Work</title>
+      <link>/post/about-how-to-deep-work/</link>
+      <pubDate>Mon, 13 Nov 2023 17:24:56 +0800</pubDate>
+      <guid>/post/about-how-to-deep-work/</guid>
+      <description>如何深度工作 做任何事情都不能三分钟热度，半途而废。对待学习经常是起了个头，并不能坚持下来。 计划目标 养成看书的习惯，不管是技术书籍还是一些文学</description>
+    </item>
+  </channel>
+</rss>

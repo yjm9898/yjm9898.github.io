@@ -3,7 +3,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-11-15T16:08:29+08:00</lastmod>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,14 +17,14 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2023-11-15T16:08:29+08:00</lastmod>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2023-11-15T16:08:29+08:00</lastmod>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,7 +45,28 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-11-15T16:08:29+08:00</lastmod>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/about-how-to-deep-work/</loc>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/note/</loc>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2023-11-18T21:21:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
