@@ -370,7 +370,7 @@ xargs 用上一个管道的输出作为当前命令的参数&lt;/p&gt;
     </item>
     
     <item>
-      <title>First Blog</title>
+      <title>安装hugo静态博客</title>
       <link>/post/install-hugo-as-my-blog-site/</link>
       <pubDate>Tue, 07 Nov 2023 17:32:19 +0800</pubDate>
       

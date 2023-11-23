@@ -3,14 +3,14 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2023-11-22T14:36:43+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2023-11-22T14:36:43+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,14 +31,14 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-11-22T14:36:43+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-11-21T09:09:58+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -87,7 +87,7 @@
   
   <url>
     <loc>/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2023-11-15T16:08:29+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -101,21 +101,21 @@
   
   <url>
     <loc>/tags/blog/</loc>
-    <lastmod>2023-11-13T16:49:22+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/install-hugo-as-my-blog-site/</loc>
-    <lastmod>2023-11-13T16:49:22+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/hugo/</loc>
-    <lastmod>2023-11-13T16:49:22+08:00</lastmod>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/install-hugo-as-my-blog-site/</loc>
+    <lastmod>2023-11-23T17:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

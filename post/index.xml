@@ -37,7 +37,7 @@
       <description>spring-boot starter封装编写和仓库存储 starter进行很好的代码复用，减少spring框架集成到系统里复杂的配置。编写starter能很好了解</description>
     </item>
     <item>
-      <title>First Blog</title>
+      <title>安装hugo静态博客</title>
       <link>/post/install-hugo-as-my-blog-site/</link>
       <pubDate>Tue, 07 Nov 2023 17:32:19 +0800</pubDate>
       <guid>/post/install-hugo-as-my-blog-site/</guid>
