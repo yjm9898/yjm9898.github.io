@@ -261,7 +261,8 @@ public class GitHubLoginHandler implements LoginHandler&amp;lt;Serializable&amp;
         return LoginResponse.success(&amp;#34;GitHub登录成功&amp;#34;, null); 
     } 
 } 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此时不需要修改任何代码 ，因为 Spring 容器重启时会自动将 GitHubLoginHandler 注册到 LoginHandlerFactory 中，使用 Spring 实现策略模式就是这么简单，还不快学起来!&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此时不需要修改任何代码 ，因为 Spring 容器重启时会自动将 GitHubLoginHandler 注册到 LoginHandlerFactory 中，使用 Spring 实现策略模式就是这么简单，还不快学起来!&lt;/p&gt;
+</description>
       
     </item>
     
@@ -293,7 +294,8 @@ public class GitHubLoginHandler implements LoginHandler&amp;lt;Serializable&amp;
 &lt;p&gt;见下图&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ossjiemin.oss-cn-hangzhou.aliyuncs.com/2023/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20231115153554.png&#34; alt=&#34;学习路径&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The Pyramid Learning with reading
-自学路上，书籍为伴，务必要提高自己的阅读效率。&lt;/p&gt;</description>
+自学路上，书籍为伴，务必要提高自己的阅读效率。&lt;/p&gt;
+</description>
       
     </item>
     

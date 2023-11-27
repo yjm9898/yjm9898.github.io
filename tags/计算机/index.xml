@@ -13,7 +13,7 @@
       <link>/post/java-database-transaction-seata/</link>
       <pubDate>Mon, 20 Nov 2023 16:53:05 +0800</pubDate>
       <guid>/post/java-database-transaction-seata/</guid>
-      <description></description>
+      <description>比如我们生活中的场景：买东西结账可以使用微信支付、支付宝支付或者银行卡支付，这些交易方式就是不同的策略。 那么在什么时候使用策略模式呢? 在《阿</description>
     </item>
   </channel>
 </rss>
