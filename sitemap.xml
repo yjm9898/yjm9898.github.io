@@ -127,4 +127,10 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>/post/%E5%A9%9A%E7%A4%BC%E8%84%9A%E6%9C%AC/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
