@@ -38,7 +38,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.124.1" />
+<meta name="generator" content="Hugo 0.125.0" />
 
 
 <link rel="canonical" href="/post/2023/11/08/linux-shell-notebook/" />
@@ -69,18 +69,25 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-<meta property="og:title" content="Linux Shell Notebook" />
-<meta property="og:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/post/2023/11/08/linux-shell-notebook/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-11-08T15:22:26+08:00" />
-<meta property="article:modified_time" content="2023-11-13T16:49:22+08:00" />
-<meta itemprop="name" content="Linux Shell Notebook">
-<meta itemprop="description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的"><meta itemprop="datePublished" content="2023-11-08T15:22:26+08:00" />
-<meta itemprop="dateModified" content="2023-11-13T16:49:22+08:00" />
-<meta itemprop="wordCount" content="103">
-<meta itemprop="keywords" content="linux,shell," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Linux Shell Notebook"/>
-<meta name="twitter:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的"/>
+<meta property="og:url" content="/post/2023/11/08/linux-shell-notebook/">
+  <meta property="og:site_name" content="杰民的博客">
+  <meta property="og:title" content="Linux Shell Notebook">
+  <meta property="og:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &amp;#39;Exited=0&amp;#39; |awk &amp;#39;NR != 1 {print $1}&amp;#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2023-11-08T15:22:26+08:00">
+    <meta property="article:modified_time" content="2023-11-13T16:49:22+08:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Shell">
+
+  <meta itemprop="name" content="Linux Shell Notebook">
+  <meta itemprop="description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的">
+  <meta itemprop="datePublished" content="2023-11-08T15:22:26+08:00">
+  <meta itemprop="dateModified" content="2023-11-13T16:49:22+08:00">
+  <meta itemprop="wordCount" content="103">
+  <meta itemprop="keywords" content="Linux,Shell"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Linux Shell Notebook">
+<meta name="twitter:description" content="工作中常用linux 脚本命令 比如在服务器上，需要批量删除服务器上停用掉的容器。 1 docker ps -a -f &#39;Exited=0&#39; |awk &#39;NR != 1 {print $1}&#39;|xargs docker rm 命令解释： -f 过滤容器中状态为退出的">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,16 +99,25 @@
 <![endif]-->
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSX0HX3MSV"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-MSX0HX3MSV', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MSX0HX3MSV"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MSX0HX3MSV');
+        }
+      </script>
+    
+  
+
 
 
 
